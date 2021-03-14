@@ -11,10 +11,16 @@ class QuickSort {
     private static int[] data = {6, 11, 3, 9, 8};
 
     public static void main(String[] args) {
-        quickSort(data, 0, data.length - 1);
-        for (int i = 0; i < data.length; i++) {
-            System.out.println("quick sort result:" + data[i]);
-        }
+
+        //快速排序
+//        quickSort(data, 0, data.length - 1);
+//        for (int i = 0; i < data.length; i++) {
+//            System.out.println("quick sort result:" + data[i]);
+//        }
+
+        //寻找第k大元素
+        int kMax = findKMaxValue(6);
+        System.out.println("k max value:" + kMax);
     }
 
     static void quickSort(int a[], int l, int r) {
@@ -37,6 +43,44 @@ class QuickSort {
         int i = l;
         for (int j = i; j < r; j++) {
             if (a[j] < pivot) {
+                int temp = a[i];
+                a[i] = a[j];
+                a[j] = temp;
+                i++;
+            }
+        }
+        int temp = a[i];
+        a[i] = pivot;
+        a[r] = temp;
+        return r;
+    }
+
+    /**
+     * 寻找第k大的元素
+     * 核心思想：利用快速排序中的分区思想，每次分区都可以将区域分成原有的1/2
+     * 分区后pivot的位置就是最终排好序的位置，所以分区前每次把数组的最后一位定为pivot
+     * 这样不断二分，当达到p+1=k的条件时，此时的pivot位置的值就是第k大的元素
+     * <p>
+     * 时间复杂度：如果我们把每次分区遍历的元素个数加起来，就是：n+n/2+n/4+n/8+...+1。这是一个等比数列求和，
+     * 最后的和等于 2n-1。所以，时间复杂度就为 O(n)。
+     */
+    private static int findKMaxValue(int k) {
+        if (k > data.length - 1) return -1;
+        int p = partition2(data, 0, data.length - 1);
+        while (true) {
+            if (p + 1 == k) {
+                return data[p];
+            }
+            p = partition2(data, 0, p - 1);
+        }
+    }
+
+    private static int partition2(int a[], int l, int r) {
+        //以最右边的元素作为pivot
+        int pivot = a[r];
+        int i = l;
+        for (int j = i; j < r; j++) {
+            if (a[j] > pivot) {
                 int temp = a[i];
                 a[i] = a[j];
                 a[j] = temp;
