@@ -8,25 +8,26 @@ package com.wtk.playalgorithm.sort;
  */
 class QuickSort {
 
-    private static int[] data = {6, 11, 3, 9, 8};
+    private static int[] data = {6, 11, 3, 9, 8, 15, 0, 1};
 
     public static void main(String[] args) {
 
         //快速排序
-//        quickSort(data, 0, data.length - 1);
-//        for (int i = 0; i < data.length; i++) {
-//            System.out.println("quick sort result:" + data[i]);
-//        }
+        quickSort(data, 0, data.length - 1);
+        for (int i = 0; i < data.length; i++) {
+            System.out.println("quick sort result:" + data[i]);
+        }
 
         //寻找第k大元素
-        int kMax = findKMaxValue(6);
-        System.out.println("k max value:" + kMax);
+//        int kMax = findKMaxValue(6);
+//        System.out.println("k max value:" + kMax);
     }
 
     static void quickSort(int a[], int l, int r) {
         if (l >= r) return;
         //先分区，找到分区点
-        int pivot = partition(a, l, r);
+//        int pivot = partition(a, l, r);
+        int pivot = partition3(a, l, r);
         quickSort(a, l, pivot - 1);
         quickSort(a, pivot + 1, r);
     }
@@ -50,10 +51,38 @@ class QuickSort {
             }
         }
         int temp = a[i];
-        a[i] = pivot;
+        a[i] = a[r];
         a[r] = temp;
-        return r;
+        return i;
     }
+
+    /**
+     * 三数取中法优化分区：以数组中间的点作为分区点
+     * 优化点：对于已排好序的数组，如果把数组最右边点作为pivot，会将时间复杂度由O(nlgN)变为O(n^2)
+     * 三数取中法、随机数法都可以避免此问题
+     */
+    private static int partition3(int a[], int l, int r) {
+        int middle = l + (r - l) / 2;
+        //先交换middle和right的值，再
+        int temp = a[r];
+        a[r] = a[middle];
+        a[middle] = temp;
+        int pivot = a[r];
+        int i = l;
+        for (int j = i; j < r; j++) {
+            if (a[j] < pivot) {
+                int t = a[i];
+                a[i] = a[j];
+                a[j] = t;
+                i++;
+            }
+        }
+        int t = a[i];
+        a[i] = a[r];
+        a[r] = t;
+        return i;
+    }
+
 
     /**
      * 寻找第k大的元素
