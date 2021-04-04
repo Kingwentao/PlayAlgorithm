@@ -10,4 +10,4 @@ learn algorithm contain note and practice algorithm question.
 - 寻找第K大的元素
 - 求x的平方根,精确到6位小数
 - 三数求和
-- 链表翻转（3种方法）
+- 链表反转（3种方法）
