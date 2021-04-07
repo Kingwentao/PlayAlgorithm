@@ -1,5 +1,7 @@
 package com.wtk.playalgorithm.leetcode.linklist;
 
+import static com.wtk.playalgorithm.leetcode.linklist.LinkListUtil.printLink;
+
 /**
  * author: created by wentaoKing
  * date: created in 4/4/21
@@ -7,22 +9,7 @@ package com.wtk.playalgorithm.leetcode.linklist;
  */
 class ReverseList {
 
-    public static class ListNode {
-        int val;
-        ListNode next;
 
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
 
     public static void main(String[] args) {
         ListNode head = new ListNode(0);
@@ -92,17 +79,5 @@ class ReverseList {
         head.next.next = head;
         head.next = null;
         return ret;
-    }
-
-    private static void printLink(ListNode head) {
-        ListNode node = head;
-        while (node != null) {
-            if (node.next != null) {
-                System.out.print(node.val + "->");
-            } else {
-                System.out.print(node.val + "->null");
-            }
-            node = node.next;
-        }
     }
 }
