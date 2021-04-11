@@ -3,9 +3,10 @@ package com.wtk.playalgorithm.leetcode.linklist;
 /**
  * author: created by wentaoKing
  * date: created in 4/7/21
- * description:
+ * description: 链表工具类
  */
 class LinkListUtil {
+
     static void printLink(ListNode head) {
         ListNode node = head;
         while (node != null) {
@@ -17,4 +18,16 @@ class LinkListUtil {
             node = node.next;
         }
     }
+
+    static ListNode generateLinkList(int[] array) {
+        ListNode head = new ListNode(array[0]);
+        ListNode node = head;
+        for (int i = 1; i < array.length; i++) {
+            node.next = new ListNode(array[i]);
+            node = node.next;
+        }
+        node.next = null;
+        return head;
+    }
+
 }
