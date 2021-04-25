@@ -11,25 +11,10 @@ import static com.wtk.playalgorithm.leetcode.linklist.LinkListUtil.printLink;
 class MergeTwoList {
 
     public static void main(String[] args) {
-        ListNode head = new ListNode(0);
-        ListNode one = new ListNode(2);
-        ListNode two = new ListNode(4);
-        ListNode three = new ListNode(5);
-
-        ListNode head2 = new ListNode(1);
-        ListNode one2 = new ListNode(3);
-        ListNode two2 = new ListNode(4);
-        ListNode three2 = new ListNode(6);
-
-        head.next = one;
-        one.next = two;
-        two.next = three;
-        three.next = null;
-
-        head2.next = one2;
-        one2.next = two2;
-        two2.next = three2;
-        three2.next = null;
+        int[] arr1 = {0, 2, 4, 5};
+        ListNode head = LinkListUtil.generateLinkList(arr1);
+        int[] arr2 = {1, 3, 4, 6};
+        ListNode head2 = LinkListUtil.generateLinkList(arr2);
         printLink(mergeTwoLists(head, head2));
     }
 

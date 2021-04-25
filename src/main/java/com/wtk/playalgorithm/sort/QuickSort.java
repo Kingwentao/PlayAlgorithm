@@ -13,14 +13,14 @@ class QuickSort {
     public static void main(String[] args) {
 
         //快速排序
-        quickSort(data, 0, data.length - 1);
-        for (int i = 0; i < data.length; i++) {
-            System.out.println("quick sort result:" + data[i]);
-        }
+//        quickSort(data, 0, data.length - 1);
+//        for (int i = 0; i < data.length; i++) {
+//            System.out.println("quick sort result:" + data[i]);
+//        }
 
         //寻找第k大元素
-//        int kMax = findKMaxValue(6);
-//        System.out.println("k max value:" + kMax);
+        int kMax = findKMaxValue(3);
+        System.out.println("k max value:" + kMax);
     }
 
     static void quickSort(int a[], int l, int r) {
@@ -116,9 +116,9 @@ class QuickSort {
                 i++;
             }
         }
-        int temp = a[i];
-        a[i] = pivot;
-        a[r] = temp;
+        int temp = a[r];
+        a[r] = a[i];
+        a[i] = temp;
         return r;
     }
 

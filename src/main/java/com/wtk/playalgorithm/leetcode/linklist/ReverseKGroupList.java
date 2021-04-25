@@ -17,6 +17,10 @@ class ReverseKGroupList {
         LinkListUtil.printLink(res);
     }
 
+    /**
+     * 递归：划分成多个k元素反转的子问题
+     * note：确定好每次反转后元素head、tail很关键
+     */
     public static ListNode reverseKGroup(ListNode head, int k) {
         if (head == null || head.next == null) return head;
         ListNode tail = head;
@@ -35,15 +39,14 @@ class ReverseKGroupList {
     }
 
     public static ListNode reverseList(ListNode head, ListNode tail) {
-        ListNode pre = null;
-        ListNode cur;
+        ListNode cur = null;
         while (head != tail) {
-            cur = head.next;
-            head.next = pre;
-            pre = head;
-            head = cur;
+            ListNode node = head.next;
+            head.next = cur;
+            cur = head;
+            head = node;
         }
-        return pre;
+        return cur;
     }
 
 }

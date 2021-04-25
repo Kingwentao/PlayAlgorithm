@@ -10,7 +10,6 @@ import static com.wtk.playalgorithm.leetcode.linklist.LinkListUtil.printLink;
 class ReverseList {
 
 
-
     public static void main(String[] args) {
         ListNode head = new ListNode(0);
         ListNode one = new ListNode(1);

@@ -33,7 +33,7 @@ class IntersectionNode {
         System.out.println("");
         LinkListUtil.printLink(head2);
         System.out.println("\nget intersection node:");
-        ListNode res = getIntersectionNode(head1,head2);
+        ListNode res = getIntersectionNode(head1, head2);
         if (res == null) {
             System.out.println("null");
         } else {
