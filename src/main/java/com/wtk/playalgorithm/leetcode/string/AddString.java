@@ -3,33 +3,34 @@ package com.wtk.playalgorithm.leetcode.string;
 /**
  * author: created by wentaoKing
  * date: created in 4/18/21
- * description: 字符串相加
+ * description: 两个数字字符串/两超大数字相加：给定两个字符串形式的非负整数 num1 和num2 ，计算它们的和
  * 核心思想：双指针+计算进位
  */
 class AddString {
 
     public static void main(String[] args) {
-        String res = addStrings("11", "123");
+        String res = addStrings("123456789", "987654321");
         System.out.println("add string result: " + res);
     }
 
     public static String addStrings(String num1, String num2) {
-        StringBuilder result = new StringBuilder();
+        int carry = 0;
         int i = num1.length() - 1;
         int j = num2.length() - 1;
-        //进位
-        int s = 0;
+        StringBuilder sb = new StringBuilder();
         while (i >= 0 || j >= 0) {
+            //note: 这里需要减去0字符，才能得到正确结果
             int n1 = i >= 0 ? num1.charAt(i) - '0' : 0;
+            System.out.printf("n1: " + n1);
             int n2 = j >= 0 ? num2.charAt(j) - '0' : 0;
-            int temp = n1 + n2 + s;
-            s = temp / 10;
-            result.append(temp % 10);
-            i--;
-            j--;
+            int s = n1 + n2 + carry;
+            carry = s / 10;
+            sb.append(s % 10);
+            --i;
+            --j;
         }
-        if (s == 1) result.append(1);
-        return result.reverse().toString();
+        if (carry == 1) sb.append(1);
+        return sb.reverse().toString();
     }
 
 }
