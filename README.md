@@ -24,3 +24,4 @@ learn algorithm contain note and practice algorithm question.
 - 字符串相加
 - LRU缓存算法
 - 两个数字字符串/两超大数字之和
+- 剑指Offer40-最小的k个数
