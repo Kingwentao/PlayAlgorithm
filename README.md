@@ -11,6 +11,7 @@ learn algorithm contain note and practice algorithm question.
 - 求x的平方根,精确到6位小数
 - 三数求和
 - 斐波那契数列
+- 剑指Offer-04: 二维数组中的查找
 
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
 - 链表反转（3种方法）
@@ -24,4 +25,4 @@ learn algorithm contain note and practice algorithm question.
 - 字符串相加
 - LRU缓存算法
 - 两个数字字符串/两超大数字之和
-- 剑指Offer40-最小的k个数
+- 剑指Offer-40: 最小的k个数
