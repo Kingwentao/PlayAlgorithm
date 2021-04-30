@@ -13,6 +13,7 @@ learn algorithm contain note and practice algorithm question.
 - 斐波那契数列
 - 剑指Offer-04: 二维数组中的查找
 - 剑指Offer-05: 替换空格
+- 剑指Offer-06: 从尾到头打印链表
 
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
 - 链表反转（3种方法）
