@@ -15,7 +15,7 @@ class ZigZagLevelOrder {
 
     public static void main(String[] args) {
         int[] arr = {3, 9, 20, 0, 0, 15, 7};
-        TreeNode root = TreeUtil.generateTree(arr, 0);
+        TreeNode root = TreeUtil.generateCompleteTree(arr, 0);
         System.out.println("source tree:" + TreeUtil.printFromTopToBottom(root));
         List<List<Integer>> result = zigzagLevelOrder(root);
         System.out.println("zigzagLevelOrder result: " + result);

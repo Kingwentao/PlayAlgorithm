@@ -11,15 +11,15 @@ import java.util.LinkedList;
 class TreeUtil {
 
     /**
-     * 生成一个树
+     * 生成一个完全二叉树
      */
-    static TreeNode generateTree(int[] arr, int num) {
+    static TreeNode generateCompleteTree(int[] arr, int num) {
         TreeNode root = new TreeNode(arr[num]);
         if (num * 2 + 1 < arr.length) {
-            root.left = generateTree(arr, num * 2 + 1);
+            root.left = generateCompleteTree(arr, num * 2 + 1);
         }
         if (num * 2 + 2 < arr.length) {
-            root.right = generateTree(arr, num * 2 + 2);
+            root.right = generateCompleteTree(arr, num * 2 + 2);
         }
         return root;
     }
