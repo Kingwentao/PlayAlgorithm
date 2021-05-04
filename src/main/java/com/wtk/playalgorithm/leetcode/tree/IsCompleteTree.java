@@ -1,4 +1,4 @@
-package com.wtk.playalgorithm.tree;
+package com.wtk.playalgorithm.leetcode.tree;
 
 import java.util.LinkedList;
 import java.util.Queue;

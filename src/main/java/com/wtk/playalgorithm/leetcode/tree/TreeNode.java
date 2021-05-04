@@ -1,4 +1,4 @@
-package com.wtk.playalgorithm.tree;
+package com.wtk.playalgorithm.leetcode.tree;
 
 /**
  * author: created by wentaoKing
