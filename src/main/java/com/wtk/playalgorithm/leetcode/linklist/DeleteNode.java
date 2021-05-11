@@ -3,14 +3,14 @@ package com.wtk.playalgorithm.leetcode.linklist;
 /**
  * author: created by wentaoKing
  * date: created in 5/11/21
- * description: 剑指 Offer 18. 删除链表的节点
+ * description: 剑指Offer-18: 删除链表的节点
  */
 class DeleteNode {
 
     public static void main(String[] args) {
         ListNode head = LinkListUtil.generateLinkList(new int[]{1,2,3,5,6,7});
         LinkListUtil.printLink(head);
-        deleteNode(head,2);
+        deleteNode(head, 2);
         LinkListUtil.printLink(head);
     }
 

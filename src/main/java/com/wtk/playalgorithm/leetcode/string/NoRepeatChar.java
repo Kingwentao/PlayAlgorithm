@@ -1,4 +1,4 @@
-package com.wtk.playalgorithm.leetcode;
+package com.wtk.playalgorithm.leetcode.string;
 
 import java.util.HashMap;
 
@@ -26,12 +26,13 @@ class NoRepeatChar {
         int max = 0;
         int start = 0;
         for (int end = 0; end < s.length(); end++) {
-            //查找过程查看表中是否存在该值，如果存在并且在它后面，则直接跳到后面去，
+            char c = s.charAt(end);
+            // 查找过程查看表中是否存在该值，如果存在并且在它后面，则直接跳到后面去，
             // 因为start到该位置长度的最长长度已经得到，不需要（start+1）慢慢后移重复计算
-            if (map.containsKey(s.charAt(end))) {
-                start = Math.max(start, map.get(s.charAt(end)));
+            if (map.containsKey(c)) {
+                start = Math.max(start, map.get(c));
             }
-            map.put(s.charAt(end), end + 1);
+            map.put(c, end + 1);
             max = Math.max(max, end - start + 1);
         }
         return max;

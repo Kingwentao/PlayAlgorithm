@@ -15,7 +15,7 @@ learn algorithm contain note and practice algorithm question.
 - 剑指Offer-05: 替换空格
 - 剑指Offer-06: 从尾到头打印链表
 - 剑指Offer-22: 链表中倒数第k个节点
-- 剑指 Offer 18. 删除链表的节点
+- 剑指Offer-18: 删除链表的节点
 
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
 - 链表反转（3种方法）
