@@ -19,6 +19,7 @@ learn algorithm contain note and practice algorithm question.
 - 剑指Offer-26: 树的子结构
 - 剑指Offer-27: 二叉树的镜像
 - 剑指Offer-30：包含min函数的栈
+- 剑指Offer-31：栈的压入、弹出序列
 
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
 - 链表反转（3种方法）
