@@ -21,6 +21,7 @@ learn algorithm contain note and practice algorithm question.
 - 剑指Offer-30：包含min函数的栈
 - 剑指Offer-31：栈的压入、弹出序列
 - 剑指Offer-33：二叉搜索树的后序遍历序列
+- 剑指Offer-35：复杂链表的复制
 
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
 - 链表反转（3种方法）
