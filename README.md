@@ -25,6 +25,7 @@ learn algorithm contain note and practice algorithm question.
 - 剑指Offer-36: 二叉搜索树与双向链表
 - 剑指Offer-38：字符串的排列
 - 剑指Offer-39: 数组中出现次数超过一半的数字
+- 剑指Offer-40: 最小的k个数
 
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
 - 链表反转（3种方法）

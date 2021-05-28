@@ -1,19 +1,28 @@
 package com.wtk.playalgorithm.leetcode.array;
 
+import java.util.Comparator;
+import java.util.PriorityQueue;
+import java.util.Queue;
+
 /**
  * author: created by wentaoKing
  * date: created in 4/27/21
- * description: 剑指 Offer 40. 最小的k个数
+ * description: 剑指Offer-40: 最小的k个数
  * 输入整数数组 arr ，找出其中最小的 k 个数。例如，输入4、5、1、6、2、7、3、8这8个数字，则最小的4个数字是1、2、3、4。
- * 思路：快速选择
+ * 思路：借助快速选择中的
  */
 class LeastNumbers {
 
     public static void main(String[] args) {
         int[] arr = {0,0,2,3,2,1,1,2,0,4};
-        int k = 10;
-        int[] res = getLeastNumbers(arr, k);
-        for (int re : res) {
+        int k = 5;
+//        int[] res = getLeastNumbers(arr, k);
+//        for (int re : res) {
+//            System.out.print(re);
+//        }
+        System.out.println("");
+        int[] res2 = getLeastNumbers2(arr, k);
+        for (int re : res2) {
             System.out.print(re);
         }
     }
@@ -33,6 +42,36 @@ class LeastNumbers {
         int[] res = new int[k];
         for (int i = 0; i < k; i++) {
             res[i] = arr[i];
+        }
+        return res;
+    }
+
+    /**
+     * 借助Java的PriorityQueue，实现一个最小堆
+     */
+    private static int[] getLeastNumbers2(int[] arr, int k) {
+        if (k == 0 || arr.length == 0) {
+            return new int[0];
+        }
+        // 默认是小根堆，实现大根堆需要重写一下比较器
+        Queue<Integer> pq = new PriorityQueue<>(new Comparator<Integer>() {
+            @Override
+            public int compare(Integer v1, Integer v2) {
+                return v2 - v1;
+            }
+        });
+        for (int n : arr) {
+            if (pq.size() < k) {
+                pq.offer(n);
+            } else if (pq.peek() > n) {
+                pq.poll();
+                pq.offer(n);
+            }
+        }
+        int[] res = new int[pq.size()];
+        int i = 0;
+        for (int n : pq) {
+            res[i++] = n;
         }
         return res;
     }
