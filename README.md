@@ -46,3 +46,5 @@ learn algorithm contain note and practice algorithm question.
 - 买卖股票的最佳时机I
 - 路径总和 II
 - 螺旋矩阵
+- 104.二叉树的最大深度
+- 20.有效的括号
