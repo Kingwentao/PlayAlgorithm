@@ -6,8 +6,12 @@ learn algorithm contain note and practice algorithm question.
 - 归并排序和快速排序
 - 二分查找法
 
+题目掌握程度标志：
+- 未掌握：⭐
+- 一般： ⭐⭐
+- 熟练：⭐⭐⭐
+
 ### 经典题目
-- 寻找第K大的元素
 - 求x的平方根,精确到6位小数
 - 三数求和
 - 斐波那契数列
@@ -49,3 +53,4 @@ learn algorithm contain note and practice algorithm question.
 - 104.二叉树的最大深度
 - 20.有效的括号
 - 200.岛屿数量
+- 215.数组中的第K个最大元素(⭐)
