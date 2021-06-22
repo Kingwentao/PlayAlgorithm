@@ -9,21 +9,33 @@ class FindKthLargest {
 
     public static void main(String[] args) {
 //      int[] data = {6, 11, 3, 9, 8, 15, 0, 1};
-        int[] data = {3, 2, 3, 1, 2, 4, 5, 5, 6}; // result 4
+//        int[] data = {3, 2, 3, 1, 2, 4, 5, 5, 6}; // result 4
+        int[] data = {3, 1, 2, 4}; // result 4
         //寻找第k大元素
-        int kMax = findKthLargest(data, 4);
+        int kMax = findKthLargest(data, 2);
         System.out.println("k max value:" + kMax);
+
+//        for (int d: data){
+//            System.out.println("d: "+ d);
+//        }
     }
 
     public static int findKthLargest(int[] nums, int k) {
         if (nums.length <= 0 || k > nums.length) return -1;
-        int p = partition(nums, 0, nums.length - 1);
+        int left = 0;
+        int target = k - 1;
+        int right = nums.length - 1;
         while (true) {
-            if (p + 1 == k) {
+            int p = partition(nums, left, right);
+            System.out.println("p: " + p);
+            if (p == target) {
                 //note：返回的是值，不是下标
                 return nums[p];
+            } else if (p < target) {
+                left = p + 1;
+            } else {
+                right = p - 1;
             }
-            p = partition(nums, 0, p - 1);
         }
     }
 
@@ -38,10 +50,12 @@ class FindKthLargest {
             }
         }
         swap(nums, i, r);
-        return r;
+        //note: 这里要return交换后的index，而不是最初定义的pivot
+        return i;
     }
 
     public static void swap(int[] nums, int l, int r) {
+        System.out.println("swap: l:" + l + "r :" + r);
         int temp = nums[l];
         nums[l] = nums[r];
         nums[r] = temp;
