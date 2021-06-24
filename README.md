@@ -43,7 +43,6 @@ learn algorithm contain note and practice algorithm question.
 - 字符串相加
 - LRU缓存算法
 - 两个数字字符串/两超大数字之和
-- 剑指Offer-40: 最小的k个数
 - 寻找二叉树的最近公共祖先
 - 判断树是否是完全二叉树
 - 二叉树的层序遍历
@@ -53,4 +52,5 @@ learn algorithm contain note and practice algorithm question.
 - 104.二叉树的最大深度
 - 20.有效的括号
 - 200.岛屿数量
-- 215.数组中的第K个最大元素(⭐⭐)
+- 215.数组中的第K个最大元素(⭐⭐)[FindKthLargest]
+- 剑指Offer-40: 最小的k个数(⭐⭐)[GetLeastNumbers]
