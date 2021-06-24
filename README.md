@@ -33,7 +33,6 @@ learn algorithm contain note and practice algorithm question.
 
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
 - 链表反转（3种方法）
-- 无重复字符的最长字串
 - 合并两个有序链表
 - 相交链表
 - K个一组翻转链表（困难）
@@ -54,3 +53,4 @@ learn algorithm contain note and practice algorithm question.
 - 200.岛屿数量
 - 215.数组中的第K个最大元素(⭐⭐)[FindKthLargest]
 - 剑指Offer-40: 最小的k个数(⭐⭐)[GetLeastNumbers]
+- 3.无重复字符的最长子串(⭐)[LengthOfLongestSubstring]
