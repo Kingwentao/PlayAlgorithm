@@ -51,6 +51,11 @@ learn algorithm contain note and practice algorithm question.
 - 104.二叉树的最大深度
 - 20.有效的括号
 - 200.岛屿数量
-- 215.数组中的第K个最大元素(⭐⭐)[FindKthLargest]
-- 剑指Offer-40: 最小的k个数(⭐⭐)[GetLeastNumbers]
-- 3.无重复字符的最长子串(⭐)[LengthOfLongestSubstring]
+
+|           题目            |               代码中类名(leetcode address)               | 掌握程度 |
+| :-----------------------: | :----------------------------------------------------------: | :------: |
+| 215.数组中的第K个最大元素 | [FindKthLargest](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) |    ⭐⭐    |
+| 剑指Offer-40: 最小的k个数 |             [GetLeastNumbers](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)              |    ⭐⭐    |
+|  3.无重复字符的最长子串   |         [LengthOfLongestSubstring](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)         |    ⭐     |
+|       206.反转链表        |         [ReverseList](https://leetcode-cn.com/problems/reverse-linked-list/)         |   ⭐⭐⭐    |
+
