@@ -5,9 +5,9 @@ package com.wtk.playalgorithm.leetcode.linklist;
  * date: created in 4/7/21
  * description: 链表工具类
  */
-class LinkListUtil {
+public class LinkListUtil {
 
-    static void printLink(ListNode head) {
+    public static void printLink(ListNode head) {
         ListNode node = head;
         while (node != null) {
             if (node.next != null) {
@@ -19,7 +19,7 @@ class LinkListUtil {
         }
     }
 
-    static ListNode generateLinkList(int[] array) {
+    public static ListNode generateLinkList(int[] array) {
         ListNode head = new ListNode(array[0]);
         ListNode node = head;
         for (int i = 1; i < array.length; i++) {
