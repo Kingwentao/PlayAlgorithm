@@ -1,15 +1,22 @@
 # PlayAlgorithm
 learn algorithm contain note and practice algorithm question.
 
-### 已完成
-- 三种排序算法
-- 归并排序和快速排序
-- 二分查找法
-
-题目掌握程度标志：
+### 题目掌握程度标志：
 - 未掌握：⭐
 - 一般： ⭐⭐
 - 熟练：⭐⭐⭐
+
+
+### 刷LeetCode题目方法/经验
+（1）看完题就会做的：看看题解区的优秀题解，以防自己使用的是暴力法 
+（2）看完题不会做的：看题解区的解题核心思路 -> 根据解题思路自己尝试撸码 -> 如果撸不出来、写不对 
+                  -> 查看详细解题过程 -> 再次尝试自己撸代码 -> 如果依旧撸不动、撸不对
+                  -> 直接查看题解区的优秀代码 -> 看完看懂后自己默写一遍
+                               
+### 常用基础知识
+- 三种排序算法
+- 归并排序和快速排序
+- 二分查找法
 
 ### 经典题目
 - 求x的平方根,精确到6位小数
@@ -58,4 +65,5 @@ learn algorithm contain note and practice algorithm question.
 | 剑指Offer-40: 最小的k个数 |             [GetLeastNumbers](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)              |    ⭐⭐    |
 |  3.无重复字符的最长子串   |         [LengthOfLongestSubstring](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)         |    ⭐     |
 |       206.反转链表        |         [ReverseList](https://leetcode-cn.com/problems/reverse-linked-list/)         |   ⭐⭐⭐    |
+|       25.K 个一组翻转链表        |         [ReverseKGroup](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)         |   ⭐   |
 
