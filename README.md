@@ -67,3 +67,4 @@ learn algorithm contain note and practice algorithm question.
 |       206.反转链表        |         [ReverseList](https://leetcode-cn.com/problems/reverse-linked-list/)         |   ⭐⭐⭐    |
 |       25.K 个一组翻转链表        |         [ReverseKGroup](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)         |   ⭐   |
 |       15.三数之和        |         [ThreeSum](https://leetcode-cn.com/problems/3sum/)         |   ⭐   |
+|       146.LRU缓存机制        |         [LRUCache](https://leetcode-cn.com/problems/lru-cache/)         |   ⭐   |
