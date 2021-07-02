@@ -8,12 +8,12 @@ import java.util.LinkedList;
  * date: created in 4/15/21
  * description: 树工具类
  */
-class TreeUtil {
+public class TreeUtil {
 
     /**
      * 生成一个完全二叉树
      */
-    static TreeNode generateCompleteTree(int[] arr, int num) {
+    public static TreeNode generateCompleteTree(int[] arr, int num) {
         TreeNode root = new TreeNode(arr[num]);
         if (num * 2 + 1 < arr.length) {
             root.left = generateCompleteTree(arr, num * 2 + 1);

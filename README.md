@@ -39,10 +39,8 @@ learn algorithm contain note and practice algorithm question.
 - 剑指Offer-40: 最小的k个数
 
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
-- 链表反转（3种方法）
 - 合并两个有序链表
 - 相交链表
-- K个一组翻转链表（困难）
 - 最大子序和
 - 之字形（锯齿形）打印树
 - 两数之和
@@ -68,3 +66,4 @@ learn algorithm contain note and practice algorithm question.
 |       25.K 个一组翻转链表        |         [ReverseKGroup](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)         |   ⭐   |
 |       15.三数之和        |         [ThreeSum](https://leetcode-cn.com/problems/3sum/)         |   ⭐   |
 |       146.LRU缓存机制        |         [LRUCache](https://leetcode-cn.com/problems/lru-cache/)         |   ⭐   |
+|       103.二叉树的锯齿形层序遍历        |         [ZigzagLevelOrder](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)         |   ⭐⭐  |
