@@ -40,12 +40,9 @@ learn algorithm contain note and practice algorithm question.
 
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
 - 合并两个有序链表
-- 相交链表
 - 最大子序和
-- 之字形（锯齿形）打印树
 - 两数之和
 - 字符串相加
-- LRU缓存算法
 - 两个数字字符串/两超大数字之和
 - 寻找二叉树的最近公共祖先
 - 判断树是否是完全二叉树
@@ -62,8 +59,9 @@ learn algorithm contain note and practice algorithm question.
 | 215.数组中的第K个最大元素 | [FindKthLargest](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) |    ⭐⭐    |
 | 剑指Offer-40: 最小的k个数 |             [GetLeastNumbers](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)              |    ⭐⭐    |
 |  3.无重复字符的最长子串   |         [LengthOfLongestSubstring](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)         |    ⭐     |
-|       206.反转链表        |         [ReverseList](https://leetcode-cn.com/problems/reverse-linked-list/)         |   ⭐⭐⭐    |
-|       25.K 个一组翻转链表        |         [ReverseKGroup](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)         |   ⭐   |
-|       15.三数之和        |         [ThreeSum](https://leetcode-cn.com/problems/3sum/)         |   ⭐   |
-|       146.LRU缓存机制        |         [LRUCache](https://leetcode-cn.com/problems/lru-cache/)         |   ⭐   |
-|       103.二叉树的锯齿形层序遍历        |         [ZigzagLevelOrder](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)         |   ⭐⭐  |
+|  206.反转链表        |         [ReverseList](https://leetcode-cn.com/problems/reverse-linked-list/)         |   ⭐⭐⭐    |
+|  25.K 个一组翻转链表        |         [ReverseKGroup](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)         |   ⭐   |
+|  15.三数之和        |         [ThreeSum](https://leetcode-cn.com/problems/3sum/)         |   ⭐   |
+|  146.LRU缓存机制        |         [LRUCache](https://leetcode-cn.com/problems/lru-cache/)         |   ⭐   |
+|  103.二叉树的锯齿形层序遍历        |         [ZigzagLevelOrder](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)         |   ⭐⭐  |
+|  160. 相交链表     |         [GetIntersectionNode ](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/solution/tu-jie-xiang-jiao-lian-biao-by-user7208t/)         |   ⭐  |

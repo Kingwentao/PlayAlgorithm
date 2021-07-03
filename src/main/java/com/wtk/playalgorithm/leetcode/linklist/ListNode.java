@@ -6,7 +6,7 @@ package com.wtk.playalgorithm.leetcode.linklist;
  * description:
  */
 public class ListNode {
-    int val;
+    public int val;
     public ListNode next;
 
     ListNode() {
