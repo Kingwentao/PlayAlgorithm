@@ -1,11 +1,6 @@
 # PlayAlgorithm
 learn algorithm contain note and practice algorithm question.
 
-### 题目掌握程度标志：
-- 未掌握：⭐
-- 一般： ⭐⭐
-- 熟练：⭐⭐⭐
-
 
 ### 刷LeetCode题目方法/经验
 （1）看完题就会做的：看看题解区的优秀题解，以防自己使用的是暴力法 
@@ -47,12 +42,16 @@ learn algorithm contain note and practice algorithm question.
 - 寻找二叉树的最近公共祖先
 - 判断树是否是完全二叉树
 - 二叉树的层序遍历
-- 买卖股票的最佳时机I
 - 路径总和 II
 - 螺旋矩阵
 - 104.二叉树的最大深度
 - 20.有效的括号
 - 200.岛屿数量
+
+### 题目掌握程度标志：
+- 未掌握：⭐
+- 一般： ⭐⭐
+- 熟练：⭐⭐⭐
 
 |           题目            |               代码中类名(leetcode address)               | 掌握程度 |
 | :-----------------------: | :----------------------------------------------------------: | :------: |
@@ -64,4 +63,5 @@ learn algorithm contain note and practice algorithm question.
 |  15.三数之和        |         [ThreeSum](https://leetcode-cn.com/problems/3sum/)         |   ⭐   |
 |  146.LRU缓存机制        |         [LRUCache](https://leetcode-cn.com/problems/lru-cache/)         |   ⭐   |
 |  103.二叉树的锯齿形层序遍历        |         [ZigzagLevelOrder](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)         |   ⭐⭐  |
-|  160. 相交链表     |         [GetIntersectionNode ](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/solution/tu-jie-xiang-jiao-lian-biao-by-user7208t/)         |   ⭐  |
+|  160. 相交链表     |         [GetIntersectionNode](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)         |   ⭐  |
+|  121. 买卖股票的最佳时机    |         [MaxProfit](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)         |   ⭐  |
