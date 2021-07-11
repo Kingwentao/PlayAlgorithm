@@ -38,7 +38,6 @@ learn algorithm contain note and practice algorithm question.
 
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
 - 合并两个有序链表
-- 最大子序和
 - 字符串相加
 - 两个数字字符串/两超大数字之和
 - 寻找二叉树的最近公共祖先
@@ -70,3 +69,4 @@ learn algorithm contain note and practice algorithm question.
 |  1.两数之和    |         [TwoSum](https://leetcode-cn.com/problems/two-sum/)         |   ⭐  |
 |  236.二叉树的最近公共祖先    |         [LowestCommonAncestor](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)         |   ⭐  |
 |  42.接雨水    |         [CatchRain](https://leetcode-cn.com/problems/trapping-rain-water/)         |   ⭐  |
+|  53.最大子序和    |         [MaxSubArray](https://leetcode-cn.com/problems/maximum-subarray/)         |   ⭐⭐⭐  |
