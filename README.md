@@ -71,3 +71,4 @@ learn algorithm contain note and practice algorithm question.
 |  42.接雨水    |         [CatchRain](https://leetcode-cn.com/problems/trapping-rain-water/)         |   ⭐  |
 |  53.最大子序和    |         [MaxSubArray](https://leetcode-cn.com/problems/maximum-subarray/)         |   ⭐⭐⭐  |
 |  415.字符串相加   |         [AddStrings](https://leetcode-cn.com/problems/add-strings/)         |   ⭐⭐  |
+|  88.合并两个有序数组   |         [MergeArray](https://leetcode-cn.com/problems/merge-sorted-array/)         |   ⭐  |
