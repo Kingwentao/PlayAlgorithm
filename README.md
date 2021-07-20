@@ -35,6 +35,7 @@ learn algorithm contain note and practice algorithm question.
 - 剑指Offer-38：字符串的排列
 - 剑指Offer-39: 数组中出现次数超过一半的数字
 - 剑指Offer-40: 最小的k个数
+- 141.环形链表
 
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
 - 合并两个有序链表
