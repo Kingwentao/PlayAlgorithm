@@ -1,7 +1,5 @@
 package com.wtk.playalgorithm.leetcode.linklist;
 
-import com.wtk.playalgorithm.leetcode.linklist.ListNode;
-
 /**
  * author: created by wentaoKing
  * date: created in 7/20/21
@@ -16,15 +14,12 @@ class HasCycle {
             if (head == null) return false;
             ListNode fast = head;
             ListNode slow = head;
-            while (fast != null) {
-                fast = fast.next;
-                if (fast != null) {
-                    fast = fast.next;
-                }
+            while (fast != null && fast.next != null) {
+                fast = fast.next.next;
+                slow = slow.next;
                 if (slow == fast) {
                     return true;
                 }
-                slow = slow.next;
             }
             return false;
         }

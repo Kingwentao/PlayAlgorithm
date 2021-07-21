@@ -38,8 +38,6 @@ learn algorithm contain note and practice algorithm question.
 - 141.环形链表
 
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
-- 合并两个有序链表
-- 字符串相加
 - 两个数字字符串/两超大数字之和
 - 寻找二叉树的最近公共祖先
 - 判断树是否是完全二叉树
@@ -75,3 +73,4 @@ learn algorithm contain note and practice algorithm question.
 |  88.合并两个有序数组   |         [MergeArray](https://leetcode-cn.com/problems/merge-sorted-array/)         |   ⭐  |
 |  21.合并两个有序链表   |         [MergeTwoLists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)         |   ⭐  |
 |  232.用栈实现队列   |         [MyQueue](https://leetcode-cn.com/problems/implement-queue-using-stacks/)         |   ⭐⭐⭐  |
+|  142.环形链表II   |         [DetectCycle](https://leetcode-cn.com/problems/linked-list-cycle-ii/)         |   ⭐  |
