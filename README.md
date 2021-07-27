@@ -38,15 +38,12 @@ learn algorithm contain note and practice algorithm question.
 - 141.环形链表
 
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
-- 两个数字字符串/两超大数字之和
 - 寻找二叉树的最近公共祖先
 - 判断树是否是完全二叉树
 - 二叉树的层序遍历
 - 路径总和 II
-- 螺旋矩阵
 - 104.二叉树的最大深度
 - 20.有效的括号
-- 200.岛屿数量
 
 ### 题目掌握程度标志：
 - 未掌握：⭐
@@ -75,3 +72,4 @@ learn algorithm contain note and practice algorithm question.
 |  232.用栈实现队列   |         [MyQueue](https://leetcode-cn.com/problems/implement-queue-using-stacks/)         |   ⭐⭐⭐  |
 |  142.环形链表II   |         [DetectCycle](https://leetcode-cn.com/problems/linked-list-cycle-ii/)         |   ⭐  |
 |  54.螺旋矩阵   |         [SpiralOrder](https://leetcode-cn.com/problems/spiral-matrix/)         |   ⭐  |
+|  200.岛屿数量   |         [NumIslands](https://leetcode-cn.com/problems/number-of-islands/)         |   ⭐⭐  |
