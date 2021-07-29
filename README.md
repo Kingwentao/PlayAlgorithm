@@ -40,7 +40,6 @@ learn algorithm contain note and practice algorithm question.
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
 - 寻找二叉树的最近公共祖先
 - 判断树是否是完全二叉树
-- 二叉树的层序遍历
 - 路径总和 II
 - 104.二叉树的最大深度
 - 20.有效的括号
@@ -74,3 +73,4 @@ learn algorithm contain note and practice algorithm question.
 |  54.螺旋矩阵   |         [SpiralOrder](https://leetcode-cn.com/problems/spiral-matrix/)         |   ⭐  |
 |  200.岛屿数量   |         [NumIslands](https://leetcode-cn.com/problems/number-of-islands/)         |   ⭐⭐  |
 |  199.二叉树的右视图  |         [RightSideView](https://leetcode-cn.com/problems/binary-tree-right-side-view/)         |   ⭐  |
+|  102.二叉树的层序遍历  |         [LevelOrder](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)         |   ⭐⭐⭐  |
