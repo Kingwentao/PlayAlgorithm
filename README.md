@@ -74,3 +74,4 @@ learn algorithm contain note and practice algorithm question.
 |  200.岛屿数量   |         [NumIslands](https://leetcode-cn.com/problems/number-of-islands/)         |   ⭐⭐  |
 |  199.二叉树的右视图  |         [RightSideView](https://leetcode-cn.com/problems/binary-tree-right-side-view/)         |   ⭐  |
 |  102.二叉树的层序遍历  |         [LevelOrder](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)         |   ⭐⭐⭐  |
+|  31.下一个排列  |         [NextPermutation](https://leetcode-cn.com/problems/next-permutation/)         |   ⭐  |
