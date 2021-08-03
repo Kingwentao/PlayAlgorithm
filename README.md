@@ -77,3 +77,4 @@ learn algorithm contain note and practice algorithm question.
 |  31.下一个排列  |         [NextPermutation](https://leetcode-cn.com/problems/next-permutation/)         |   ⭐  |
 |  300.最长递增子序列  |         [LengthOfLIS](https://leetcode-cn.com/problems/longest-increasing-subsequence/)         |   ⭐  |
 |  101.对称二叉树  |         [IsSymmetric](https://leetcode-cn.com/problems/symmetric-tree/)         |   ⭐  |
+|  143.重排链表  |         [ReorderList](https://leetcode-cn.com/problems/reorder-list/submissions/)         |   ⭐  |
