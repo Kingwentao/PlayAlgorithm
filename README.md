@@ -39,7 +39,6 @@ learn algorithm contain note and practice algorithm question.
 
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
 - 判断树是否是完全二叉树
-- 路径总和 II
 - 104.二叉树的最大深度
 
 ### 题目掌握程度标志：
@@ -83,3 +82,5 @@ learn algorithm contain note and practice algorithm question.
 |  78.子集  |         [Subsets](https://leetcode-cn.com/problems/subsets/)         |   ⭐  |
 |  90.子集II  |         [SubsetsWithDup](https://leetcode-cn.com/problems/subsets-ii/)         |   ⭐  |
 |  20.有效的括号  |         [isValidBrackets](https://leetcode-cn.com/problems/valid-parentheses/)         |   ⭐⭐  |
+|  112.路径总和 |         [HasPathSum](https://leetcode-cn.com/problems/path-sum/)         |   ⭐⭐  |
+|  113.路径总和II  |         [PathSum](https://leetcode-cn.com/problems/path-sum-ii/)         |   ⭐  |
