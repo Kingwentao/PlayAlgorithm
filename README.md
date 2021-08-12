@@ -38,11 +38,9 @@ learn algorithm contain note and practice algorithm question.
 - 141.环形链表
 
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
-- 寻找二叉树的最近公共祖先
 - 判断树是否是完全二叉树
 - 路径总和 II
 - 104.二叉树的最大深度
-- 20.有效的括号
 
 ### 题目掌握程度标志：
 - 未掌握：⭐
@@ -84,3 +82,4 @@ learn algorithm contain note and practice algorithm question.
 |  39.组合总和  |         [CombinationSum](https://leetcode-cn.com/problems/combination-sum/)         |   ⭐  |
 |  78.子集  |         [Subsets](https://leetcode-cn.com/problems/subsets/)         |   ⭐  |
 |  90.子集II  |         [SubsetsWithDup](https://leetcode-cn.com/problems/subsets-ii/)         |   ⭐  |
+|  20.有效的括号  |         [isValidBrackets](https://leetcode-cn.com/problems/valid-parentheses/)         |   ⭐⭐  |
