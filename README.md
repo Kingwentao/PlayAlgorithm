@@ -85,3 +85,4 @@ learn algorithm contain note and practice algorithm question.
 |  112.路径总和 |         [HasPathSum](https://leetcode-cn.com/problems/path-sum/)         |   ⭐⭐  |
 |  113.路径总和II  |         [PathSum](https://leetcode-cn.com/problems/path-sum-ii/)         |   ⭐  |
 |  70.爬楼梯  |         [ClimbStairs](https://leetcode-cn.com/problems/climbing-stairs/)         |   ⭐  |
+|  5.最长回文子串  |         [LongestPalindrome](https://leetcode-cn.com/problems/longest-palindromic-substring/)         |   ⭐  |
