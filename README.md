@@ -104,3 +104,4 @@ learn algorithm contain note and practice algorithm question.
 |  121.买卖股票的最佳时机    |         [MaxProfit](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)         |   ⭐  |
 |  122.买卖股票的最佳时机II   |         [MaxProfit2](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)         |   ⭐⭐  |
 |  322.零钱兑换   |         [CoinChange](https://leetcode-cn.com/problems/coin-change/)         |   ⭐  |
+|  221.最大正方形   |         [MaximalSquare](https://leetcode-cn.com/problems/maximal-square/submissions/)         |   ⭐  |
