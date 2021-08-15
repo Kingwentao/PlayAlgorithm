@@ -15,7 +15,8 @@ class MaxProfit {
     public static int maxProfit(int[] prices) {
         int len = prices.length;
         if (len < 2) return 0;
-        //define: i：天数 j：0表示不持股 1表示持股 dp表示手上的现金
+        // dp[i][0] 下标为 i 这天结束的时候，不持股，手上拥有的最大现金数
+        // dp[i][1] 下标为 i 这天结束的时候，持股，手上拥有的最大现金数
         int[][] dp = new int[len][2];
 
         dp[0][0] = 0;
