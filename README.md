@@ -49,6 +49,7 @@ learn algorithm contain note and practice algorithm question.
 | :-----------------------: | :----------------------------------------------------------: | 
 | 62.不同路径 | [UniquePaths](https://leetcode-cn.com/problems/unique-paths/) | 
 |  121. 买卖股票的最佳时机    | [MaxProfit](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)| 
+|  322.零钱兑换   |         [CoinChange](https://leetcode-cn.com/problems/coin-change/)         |
 
 
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
@@ -102,3 +103,4 @@ learn algorithm contain note and practice algorithm question.
 |  10.正则表达式匹配  |         [IsMatch](https://leetcode-cn.com/problems/regular-expression-matching/)         |   ⭐  |
 |  121.买卖股票的最佳时机    |         [MaxProfit](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)         |   ⭐  |
 |  122.买卖股票的最佳时机II   |         [MaxProfit2](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)         |   ⭐⭐  |
+|  322.零钱兑换   |         [CoinChange](https://leetcode-cn.com/problems/coin-change/)         |   ⭐  |
