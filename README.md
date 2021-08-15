@@ -16,7 +16,7 @@ learn algorithm contain note and practice algorithm question.
 - 归并排序和快速排序
 - 二分查找法
 
-### 经典题目
+### 经典题型
 - 求x的平方根,精确到6位小数
 - 三数求和
 - 斐波那契数列
@@ -36,6 +36,13 @@ learn algorithm contain note and practice algorithm question.
 - 剑指Offer-39: 数组中出现次数超过一半的数字
 - 剑指Offer-40: 最小的k个数
 - 141.环形链表
+
+#### 1.动态规划
+
+|           题目            |               代码中类名(leetcode address)               | 
+| :-----------------------: | :----------------------------------------------------------: | 
+| 62.不同路径 | [UniquePaths](https://leetcode-cn.com/problems/unique-paths/) | 
+
 
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
 - 判断树是否是完全二叉树
