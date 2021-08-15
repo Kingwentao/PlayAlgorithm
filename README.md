@@ -37,7 +37,7 @@ learn algorithm contain note and practice algorithm question.
 - 剑指Offer-40: 最小的k个数
 - 141.环形链表
 
-#### 1.动态规划
+#### 一.动态规划篇
 
 1. 动态规划常常适用于有重叠子问题和最优子结构性质的问题，并且记录所有子问题的结果，因此动态规划方法所耗时间往往远少于朴素解法。
 2. 使用动态规划解决的问题有个明显的特点，一旦一个子问题的求解得到结果，以后的计算过程就不会修改它，这样的特点叫做无后效性，
@@ -49,7 +49,6 @@ learn algorithm contain note and practice algorithm question.
 | :-----------------------: | :----------------------------------------------------------: | 
 | 62.不同路径 | [UniquePaths](https://leetcode-cn.com/problems/unique-paths/) | 
 |  121. 买卖股票的最佳时机    | [MaxProfit](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)| 
-
 
 
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
@@ -72,7 +71,6 @@ learn algorithm contain note and practice algorithm question.
 |  146.LRU缓存机制        |         [LRUCache](https://leetcode-cn.com/problems/lru-cache/)         |   ⭐   |
 |  103.二叉树的锯齿形层序遍历        |         [ZigzagLevelOrder](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)         |   ⭐⭐  |
 |  160. 相交链表     |         [GetIntersectionNode](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)         |   ⭐  |
-|  121. 买卖股票的最佳时机    |         [MaxProfit](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)         |   ⭐  |
 |  1.两数之和    |         [TwoSum](https://leetcode-cn.com/problems/two-sum/)         |   ⭐  |
 |  236.二叉树的最近公共祖先    |         [LowestCommonAncestor](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)         |   ⭐  |
 |  42.接雨水    |         [CatchRain](https://leetcode-cn.com/problems/trapping-rain-water/)         |   ⭐  |
@@ -101,4 +99,6 @@ learn algorithm contain note and practice algorithm question.
 |  113.路径总和II  |         [PathSum](https://leetcode-cn.com/problems/path-sum-ii/)         |   ⭐  |
 |  70.爬楼梯  |         [ClimbStairs](https://leetcode-cn.com/problems/climbing-stairs/)         |   ⭐  |
 |  5.最长回文子串  |         [LongestPalindrome](https://leetcode-cn.com/problems/longest-palindromic-substring/)         |   ⭐  |
-|  10.正则表达式匹配  |         [IsMatch](https://leetcode-cn.com/problems/regular-expression-matching/)         |     |
+|  10.正则表达式匹配  |         [IsMatch](https://leetcode-cn.com/problems/regular-expression-matching/)         |   ⭐  |
+|  121.买卖股票的最佳时机    |         [MaxProfit](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)         |   ⭐  |
+|  122.买卖股票的最佳时机II   |         [MaxProfit2](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)         |   ⭐⭐  |
