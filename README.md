@@ -72,7 +72,7 @@ learn algorithm contain note and practice algorithm question.
 |  146.LRU缓存机制        |         [LRUCache](https://leetcode-cn.com/problems/lru-cache/)         |   ⭐   |
 |  103.二叉树的锯齿形层序遍历        |         [ZigzagLevelOrder](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)         |   ⭐⭐  |
 |  160. 相交链表     |         [GetIntersectionNode](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)         |   ⭐  |
-|  1.两数之和    |         [TwoSum](https://leetcode-cn.com/problems/two-sum/)         |   ⭐  |
+|  1.两数之和    |         [TwoSum](https://leetcode-cn.com/problems/two-sum/)         |   ⭐⭐  |
 |  236.二叉树的最近公共祖先    |         [LowestCommonAncestor](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)         |   ⭐  |
 |  42.接雨水    |         [CatchRain](https://leetcode-cn.com/problems/trapping-rain-water/)         |   ⭐  |
 |  53.最大子序和    |         [MaxSubArray](https://leetcode-cn.com/problems/maximum-subarray/)         |   ⭐⭐⭐  |
