@@ -39,10 +39,13 @@ learn algorithm contain note and practice algorithm question.
 
 #### 一.动态规划篇
 
-1. 动态规划常常适用于有重叠子问题和最优子结构性质的问题，并且记录所有子问题的结果，因此动态规划方法所耗时间往往远少于朴素解法。
-2. 使用动态规划解决的问题有个明显的特点，一旦一个子问题的求解得到结果，以后的计算过程就不会修改它，这样的特点叫做无后效性，
-求解问题的过程形成了一张有向无环图。
-3. 动态规划只解决每个子问题一次，具有天然剪枝的功能，从而减少计算量。
+1. 动态规划常常适用于有重叠子问题和最优子结构性质的问题，并且记录所有子问题的结果。
+重叠子问题是指不同的决策序列，到达某个相同的阶段时，可能会产生重复的状态。
+最优子结构指的是，问题的最优解包含子问题的最优解。反过来说就是，我们可以通过子问题的最优解，推导出问题的最优解。
+2. 使用动态规划解决的问题有个明显的特点，需要满足无后效性。
+无后效性有两层含义，第一层含义是，在推导后面阶段的状态的时候，我们只关心前面阶段的状态值，不关心这个状态是怎么一步一步推导出来的。
+第二层含义是，某阶段状态一旦确定，就不受之后阶段的决策影响。无后效性是一个非常“宽松”的要求。
+3. 动态规划只解决每个子问题一次，具有天然剪枝的功能，减少了计算量。
 4. 动态规划有自底向上和自顶向下两种解决问题的方式。自顶向下即记忆化递归，自底向上就是递推。
 
 |           题目            |               代码中类名(leetcode address)               | 
@@ -73,6 +76,7 @@ learn algorithm contain note and practice algorithm question.
 |  103.二叉树的锯齿形层序遍历        |         [ZigzagLevelOrder](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)         |   ⭐⭐  |
 |  160. 相交链表     |         [GetIntersectionNode](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)         |   ⭐  |
 |  1.两数之和    |         [TwoSum](https://leetcode-cn.com/problems/two-sum/)         |   ⭐⭐  |
+|  2.两数相加    |         [AddTwoNumbers](https://leetcode-cn.com/problems/add-two-numbers/)         |   ⭐⭐  |
 |  236.二叉树的最近公共祖先    |         [LowestCommonAncestor](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)         |   ⭐  |
 |  42.接雨水    |         [CatchRain](https://leetcode-cn.com/problems/trapping-rain-water/)         |   ⭐  |
 |  53.最大子序和    |         [MaxSubArray](https://leetcode-cn.com/problems/maximum-subarray/)         |   ⭐⭐⭐  |
