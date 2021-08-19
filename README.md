@@ -111,3 +111,4 @@ learn algorithm contain note and practice algorithm question.
 |  221.最大正方形   |         [MaximalSquare](https://leetcode-cn.com/problems/maximal-square/submissions/)         |   ⭐  |
 |  69.x的平方根   |         [MySqrt](https://leetcode-cn.com/problems/sqrtx/)         |   ⭐  |
 |  56.合并区间   |         [MergeInterval](https://leetcode-cn.com/problems/merge-intervals/submissions/)         |   ⭐  |
+|  98.验证二叉搜索树   |         [IsValidBST](https://leetcode-cn.com/problems/validate-binary-search-tree/)         |   ⭐  |
