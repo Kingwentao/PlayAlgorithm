@@ -16,7 +16,7 @@ class MergeInterval {
             int intervalSize = intervals.length;
             if (intervalSize <= 1) return intervals;
             // 对区间左升序排列
-            Arrays.sort(intervals, (t1, t2) -> t1[0] - t2[0]);
+//            Arrays.sort(intervals, (t1, t2) -> t1[0] - t2[0]);
             // 遍历区间
             int[][] res = new int[intervalSize][2];
             int idx = -1;
