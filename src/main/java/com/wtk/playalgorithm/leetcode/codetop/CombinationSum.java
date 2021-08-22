@@ -36,11 +36,16 @@ class CombinationSum {
                 ret.add(new ArrayList<>(deque));
                 return;
             }
-            //note: 为什么要用begin？
+            // note: 为什么要用begin？
+            // 搜索的时候实现去重，[2,2,3] 和 [3,2,2] 是重复的
+            // 按照搜索顺序，下一轮递归不再遍历之前的元素，使用begin而不是0作为起始点，就可以解决不再重复遍历之前的数
             for (int i = begin; i < len; i++) {
                 deque.addLast(candidates[i]);
-                dfs(candidates, target - candidates[i], i, len, deque, ret);
+                System.out.println("(" + i + ")递归前：" + deque);
+                // 注意这里不是begin不是i+1，因为可以重复取同一个元素
+                dfs(candidates, target - candidates[i], i , len, deque, ret);
                 deque.removeLast();
+                System.out.println("(" + i + ")回溯后：" + deque);
             }
         }
     }
