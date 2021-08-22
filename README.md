@@ -59,8 +59,12 @@ learn algorithm contain note and practice algorithm question.
 |           题目            |               代码中类名(leetcode address)               | 
 | :-----------------------: | :----------------------------------------------------------: | 
 | 17.电话号码的字母组合 | [LetterCombinations](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | 
-
-
+|  46.全排列  |         [Permute](https://leetcode-cn.com/problems/permutations/)         |
+|  47.全排列II  |         [PermuteUnique](https://leetcode-cn.com/problems/permutations-ii/)         |   
+|  93.复原IP地址  |         [RestoreIpAddresses](https://leetcode-cn.com/problems/restore-ip-addresses/)   |
+|  39.组合总和  |         [CombinationSum](https://leetcode-cn.com/problems/combination-sum/)         |   
+|  78.子集  |         [Subsets](https://leetcode-cn.com/problems/subsets/)         |   
+|  90.子集II  |         [SubsetsWithDup](https://leetcode-cn.com/problems/subsets-ii/)         |  
 
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
 - 判断树是否是完全二叉树
@@ -105,7 +109,7 @@ learn algorithm contain note and practice algorithm question.
 |  47.全排列II  |         [PermuteUnique](https://leetcode-cn.com/problems/permutations-ii/)         |   ⭐  |
 |  93.复原IP地址  |         [RestoreIpAddresses](https://leetcode-cn.com/problems/restore-ip-addresses/)         |   ⭐  |
 |  39.组合总和  |         [CombinationSum](https://leetcode-cn.com/problems/combination-sum/)         |   ⭐  |
-|  78.子集  |         [Subsets](https://leetcode-cn.com/problems/subsets/)         |   ⭐  |
+|  78.子集  |         [Subsets](https://leetcode-cn.com/problems/subsets/)         |   ⭐⭐  |
 |  90.子集II  |         [SubsetsWithDup](https://leetcode-cn.com/problems/subsets-ii/)         |   ⭐  |
 |  20.有效的括号  |         [isValidBrackets](https://leetcode-cn.com/problems/valid-parentheses/)         |   ⭐⭐  |
 |  112.路径总和 |         [HasPathSum](https://leetcode-cn.com/problems/path-sum/)         |   ⭐⭐  |
