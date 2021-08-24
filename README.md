@@ -66,6 +66,14 @@ learn algorithm contain note and practice algorithm question.
 |  78.子集  |         [Subsets](https://leetcode-cn.com/problems/subsets/)         |   
 |  90.子集II  |         [SubsetsWithDup](https://leetcode-cn.com/problems/subsets-ii/)         |  
 
+#### 三、数组与排序
+
+| 215.数组中的第K个最大元素 | [FindKthLargest](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) |
+| 剑指Offer-40: 最小的k个数 |             [GetLeastNumbers](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)              |  
+|  912.排序数组   |         [SortArray](https://leetcode-cn.com/problems/sort-an-array/)         |  
+|  88.合并两个有序数组   |         [MergeArray](https://leetcode-cn.com/problems/merge-sorted-array/)         |   
+
+
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
 - 判断树是否是完全二叉树
 - 104.二叉树的最大深度
@@ -77,8 +85,11 @@ learn algorithm contain note and practice algorithm question.
 
 |           题目            |               代码中类名(leetcode address)               | 掌握程度 |
 | :-----------------------: | :----------------------------------------------------------: | :------: |
-| 215.数组中的第K个最大元素 | [FindKthLargest](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) |    ⭐⭐    |
-| 剑指Offer-40: 最小的k个数 |             [GetLeastNumbers](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)              |    ⭐⭐    |
+| 215.数组中的第K个最大元素 | [FindKthLargest](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) |    ⭐⭐⭐    |
+| 剑指Offer-40: 最小的k个数 |             [GetLeastNumbers](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)              |    ⭐⭐⭐    |
+|  912.排序数组   |         [SortArray](https://leetcode-cn.com/problems/sort-an-array/)         |   ⭐  |
+|  88.合并两个有序数组   |         [MergeArray](https://leetcode-cn.com/problems/merge-sorted-array/)         |   ⭐  |
+|  56.合并区间   |         [MergeInterval](https://leetcode-cn.com/problems/merge-intervals/submissions/)         |   ⭐  |
 |  3.无重复字符的最长子串   |         [LengthOfLongestSubstring](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)         |    ⭐     |
 |  206.反转链表        |         [ReverseList](https://leetcode-cn.com/problems/reverse-linked-list/)         |   ⭐⭐⭐    |
 |  25.K 个一组翻转链表        |         [ReverseKGroup](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)         |   ⭐   |
@@ -96,7 +107,6 @@ learn algorithm contain note and practice algorithm question.
 |  42.接雨水    |         [CatchRain](https://leetcode-cn.com/problems/trapping-rain-water/)         |   ⭐  |
 |  53.最大子序和    |         [MaxSubArray](https://leetcode-cn.com/problems/maximum-subarray/)         |   ⭐⭐⭐  |
 |  415.字符串相加   |         [AddStrings](https://leetcode-cn.com/problems/add-strings/)         |   ⭐⭐  |
-|  88.合并两个有序数组   |         [MergeArray](https://leetcode-cn.com/problems/merge-sorted-array/)         |   ⭐  |
 |  21.合并两个有序链表   |         [MergeTwoLists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)         |   ⭐  |
 |  232.用栈实现队列   |         [MyQueue](https://leetcode-cn.com/problems/implement-queue-using-stacks/)         |   ⭐⭐⭐  |
 |  142.环形链表II   |         [DetectCycle](https://leetcode-cn.com/problems/linked-list-cycle-ii/)         |   ⭐  |
@@ -122,5 +132,3 @@ learn algorithm contain note and practice algorithm question.
 |  322.零钱兑换   |         [CoinChange](https://leetcode-cn.com/problems/coin-change/)         |   ⭐  |
 |  221.最大正方形   |         [MaximalSquare](https://leetcode-cn.com/problems/maximal-square/submissions/)         |   ⭐  |
 |  69.x的平方根   |         [MySqrt](https://leetcode-cn.com/problems/sqrtx/)         |   ⭐  |
-|  56.合并区间   |         [MergeInterval](https://leetcode-cn.com/problems/merge-intervals/submissions/)         |   ⭐  |
-|  912.排序数组   |         [SortArray](https://leetcode-cn.com/problems/sort-an-array/)         |   ⭐  |
