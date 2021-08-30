@@ -18,12 +18,9 @@ learn algorithm contain note and practice algorithm question.
 
 ### 经典题型
 - 求x的平方根,精确到6位小数
-- 三数求和
-- 斐波那契数列
 - 剑指Offer-04: 二维数组中的查找
 - 剑指Offer-05: 替换空格
 - 剑指Offer-06: 从尾到头打印链表
-- 剑指Offer-22: 链表中倒数第k个节点
 - 剑指Offer-18: 删除链表的节点
 - 剑指Offer-26: 树的子结构
 - 剑指Offer-27: 二叉树的镜像
@@ -35,7 +32,6 @@ learn algorithm contain note and practice algorithm question.
 - 剑指Offer-38：字符串的排列
 - 剑指Offer-39: 数组中出现次数超过一半的数字
 - 剑指Offer-40: 最小的k个数
-- 141.环形链表
 
 #### 一.动态规划篇
 
@@ -68,10 +64,26 @@ learn algorithm contain note and practice algorithm question.
 
 #### 三、数组与排序
 
+|           题目            |               代码中类名(leetcode address)               | 
+| :-----------------------: | :----------------------------------------------------------: | 
 | 215.数组中的第K个最大元素 | [FindKthLargest](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) |
 | 剑指Offer-40: 最小的k个数 |             [GetLeastNumbers](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)              |  
 |  912.排序数组   |         [SortArray](https://leetcode-cn.com/problems/sort-an-array/)         |  
 |  88.合并两个有序数组   |         [MergeArray](https://leetcode-cn.com/problems/merge-sorted-array/)         |   
+
+#### 四、链表
+
+|           题目            |               代码中类名(leetcode address)               | 
+| :-----------------------: | :----------------------------------------------------------: |
+|  206.反转链表        |         [ReverseList](https://leetcode-cn.com/problems/reverse-linked-list/)  |  
+|  2.两数相加    |         [AddTwoNumbers](https://leetcode-cn.com/problems/add-two-numbers/)    |  
+|  25.K 个一组翻转链表        |         [ReverseKGroup](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)  |  
+|  19.删除链表的倒数第N个结点     |         [RemoveNthFromEnd](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)  | 
+|  剑指Offer22:链表中倒数第k个节点     |         [GetKthFromEnd](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)    | 
+|  160. 相交链表     |         [GetIntersectionNode](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | 
+|  21.合并两个有序链表   |         [MergeTwoLists](https://leetcode-cn.com/problems/merge-two-sorted-lists/) |   
+|  142.环形链表II   |         [DetectCycle](https://leetcode-cn.com/problems/linked-list-cycle-ii/) |  
+|  143.重排链表  |         [ReorderList](https://leetcode-cn.com/problems/reorder-list/) |   
 
 
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
@@ -92,14 +104,16 @@ learn algorithm contain note and practice algorithm question.
 |  56.合并区间   |         [MergeInterval](https://leetcode-cn.com/problems/merge-intervals/submissions/)         |   ⭐  |
 |  3.无重复字符的最长子串   |         [LengthOfLongestSubstring](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)         |    ⭐     |
 |  206.反转链表        |         [ReverseList](https://leetcode-cn.com/problems/reverse-linked-list/)         |   ⭐⭐⭐    |
+|  92.反转链表II  |         [ReverseBetween](https://leetcode-cn.com/problems/reverse-linked-list-ii/)         |   ⭐  |
 |  2.两数相加    |         [AddTwoNumbers](https://leetcode-cn.com/problems/add-two-numbers/)         |   ⭐⭐  |
 |  25.K 个一组翻转链表        |         [ReverseKGroup](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)         |   ⭐⭐   |
 |  剑指Offer22:链表中倒数第k个节点     |         [GetKthFromEnd](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)         |   ⭐⭐⭐  |
 |  160. 相交链表     |         [GetIntersectionNode](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)         |   ⭐⭐⭐  |
+|  19.删除链表的倒数第N个结点     |         [RemoveNthFromEnd](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)         |   ⭐  |
 |  21.合并两个有序链表   |         [MergeTwoLists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)         |   ⭐  |
 |  142.环形链表II   |         [DetectCycle](https://leetcode-cn.com/problems/linked-list-cycle-ii/)         |   ⭐  |
 |  143.重排链表  |         [ReorderList](https://leetcode-cn.com/problems/reorder-list/)         |   ⭐  |
-|  92.反转链表II  |         [ReverseBetween](https://leetcode-cn.com/problems/reverse-linked-list-ii/)         |   ⭐  |
+|  148.排序链表  |         [SortList](https://leetcode-cn.com/problems/sort-list/)         |   ⭐  |
 |  15.三数之和        |         [ThreeSum](https://leetcode-cn.com/problems/3sum/)         |   ⭐⭐⭐   |
 |  146.LRU缓存机制        |         [LRUCache](https://leetcode-cn.com/problems/lru-cache/)         |   ⭐   |
 |  1.两数之和    |         [TwoSum](https://leetcode-cn.com/problems/two-sum/)         |   ⭐⭐  |
