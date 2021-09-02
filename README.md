@@ -48,7 +48,8 @@ learn algorithm contain note and practice algorithm question.
 | :-----------------------: | :----------------------------------------------------------: | 
 | 62.不同路径 | [UniquePaths](https://leetcode-cn.com/problems/unique-paths/) | 
 |  121. 买卖股票的最佳时机    | [MaxProfit](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)| 
-|  322.零钱兑换   |         [CoinChange](https://leetcode-cn.com/problems/coin-change/)         |
+|  122.买卖股票的最佳时机II   |         [MaxProfit2](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) |  
+|  322.零钱兑换   |         [CoinChange](https://leetcode-cn.com/problems/coin-change/)  |
 
 #### 二、递归与回溯篇
 
@@ -142,11 +143,11 @@ learn algorithm contain note and practice algorithm question.
 |  20.有效的括号  |         [isValidBrackets](https://leetcode-cn.com/problems/valid-parentheses/)         |   ⭐⭐  |
 |  112.路径总和 |         [HasPathSum](https://leetcode-cn.com/problems/path-sum/)         |   ⭐⭐  |
 |  113.路径总和II  |         [PathSum](https://leetcode-cn.com/problems/path-sum-ii/)         |   ⭐  |
+|  69.x的平方根   |         [MySqrt](https://leetcode-cn.com/problems/sqrtx/)         |   ⭐  |
 |  70.爬楼梯  |         [ClimbStairs](https://leetcode-cn.com/problems/climbing-stairs/)         |   ⭐  |
 |  5.最长回文子串  |         [LongestPalindrome](https://leetcode-cn.com/problems/longest-palindromic-substring/)         |   ⭐  |
 |  10.正则表达式匹配  |         [IsMatch](https://leetcode-cn.com/problems/regular-expression-matching/)         |   ⭐  |
-|  121.买卖股票的最佳时机    |         [MaxProfit](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)         |   ⭐  |
-|  122.买卖股票的最佳时机II   |         [MaxProfit2](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)         |   ⭐⭐  |
+|  121.买卖股票的最佳时机    |         [MaxProfit](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)         |   ⭐⭐⭐  |
+|  122.买卖股票的最佳时机II   |         [MaxProfit2](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)         |   ⭐⭐⭐  |
 |  322.零钱兑换   |         [CoinChange](https://leetcode-cn.com/problems/coin-change/)         |   ⭐  |
-|  221.最大正方形   |         [MaximalSquare](https://leetcode-cn.com/problems/maximal-square/submissions/)         |   ⭐  |
-|  69.x的平方根   |         [MySqrt](https://leetcode-cn.com/problems/sqrtx/)         |   ⭐  |
+|  221.最大正方形   |         [MaximalSquare](https://leetcode-cn.com/problems/maximal-square/)         |   ⭐  |
