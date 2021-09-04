@@ -19,7 +19,7 @@ class MaxSubArray {
      * 贪心算法
      */
     public static int maxSubArray(int[] nums) {
-        int result = Integer.MIN_VALUE;
+        int result = nums[0];
         int sum = 0;
         for (int i = 0; i < nums.length; i++) {
             sum += nums[i];
@@ -36,11 +36,15 @@ class MaxSubArray {
      */
     public static int maxSubArray2(int[] nums) {
         int result = nums[0];
-        int dp = nums[0];
+        // dp[i] 表示：以 nums[i] 结尾的连续子数组的最大和
+        int[] dp = new int[nums.length];
+        dp[0] = nums[0];
         for (int i = 1; i < nums.length; i++) {
-            dp = Math.max(dp + nums[i], nums[i]);
-            result = Math.max(result, dp);
+            //note: 这里比较的是 nums[i] 而不是 dp[i - 1] !!!
+            dp[i] = Math.max(dp[i - 1] + nums[i], nums[i]);
+            result = Math.max(result, dp[i]);
         }
         return result;
     }
+
 }

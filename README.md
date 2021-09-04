@@ -126,8 +126,6 @@ learn algorithm contain note and practice algorithm question.
 |  103.二叉树的锯齿形层序遍历        |         [ZigzagLevelOrder](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)         |   ⭐⭐  |
 |  199.二叉树的右视图  |         [RightSideView](https://leetcode-cn.com/problems/binary-tree-right-side-view/)         |   ⭐  |
 |  236.二叉树的最近公共祖先    |         [LowestCommonAncestor](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)         |   ⭐  |
-|  42.接雨水    |         [CatchRain](https://leetcode-cn.com/problems/trapping-rain-water/)         |   ⭐  |
-|  53.最大子序和    |         [MaxSubArray](https://leetcode-cn.com/problems/maximum-subarray/)         |   ⭐⭐⭐  |
 |  415.字符串相加   |         [AddStrings](https://leetcode-cn.com/problems/add-strings/)         |   ⭐⭐  |
 |  232.用栈实现队列   |         [MyQueue](https://leetcode-cn.com/problems/implement-queue-using-stacks/)         |   ⭐⭐⭐  |
 |  54.螺旋矩阵   |         [SpiralOrder](https://leetcode-cn.com/problems/spiral-matrix/)         |   ⭐  |
@@ -151,3 +149,5 @@ learn algorithm contain note and practice algorithm question.
 |  122.买卖股票的最佳时机II   |         [MaxProfit2](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)         |   ⭐⭐⭐  |
 |  322.零钱兑换   |         [CoinChange](https://leetcode-cn.com/problems/coin-change/)         |   ⭐  |
 |  221.最大正方形   |         [MaximalSquare](https://leetcode-cn.com/problems/maximal-square/)         |   ⭐  |
+|  42.接雨水    |         [CatchRain](https://leetcode-cn.com/problems/trapping-rain-water/)         |   ⭐  |
+|  53.最大子序和    |         [MaxSubArray](https://leetcode-cn.com/problems/maximum-subarray/)         |   ⭐⭐  |
