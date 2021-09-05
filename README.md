@@ -131,7 +131,6 @@ learn algorithm contain note and practice algorithm question.
 |  54.螺旋矩阵   |         [SpiralOrder](https://leetcode-cn.com/problems/spiral-matrix/)         |   ⭐  |
 |  200.岛屿数量   |         [NumIslands](https://leetcode-cn.com/problems/number-of-islands/)         |   ⭐⭐  |
 |  31.下一个排列  |         [NextPermutation](https://leetcode-cn.com/problems/next-permutation/)         |   ⭐  |
-|  300.最长递增子序列  |         [LengthOfLIS](https://leetcode-cn.com/problems/longest-increasing-subsequence/)         |   ⭐  |
 |  46.全排列  |         [Permute](https://leetcode-cn.com/problems/permutations/)         |   ⭐  |
 |  47.全排列II  |         [PermuteUnique](https://leetcode-cn.com/problems/permutations-ii/)         |   ⭐  |
 |  93.复原IP地址  |         [RestoreIpAddresses](https://leetcode-cn.com/problems/restore-ip-addresses/)         |   ⭐  |
@@ -142,7 +141,7 @@ learn algorithm contain note and practice algorithm question.
 |  112.路径总和 |         [HasPathSum](https://leetcode-cn.com/problems/path-sum/)         |   ⭐⭐  |
 |  113.路径总和II  |         [PathSum](https://leetcode-cn.com/problems/path-sum-ii/)         |   ⭐  |
 |  69.x的平方根   |         [MySqrt](https://leetcode-cn.com/problems/sqrtx/)         |   ⭐  |
-|  70.爬楼梯  |         [ClimbStairs](https://leetcode-cn.com/problems/climbing-stairs/)         |   ⭐  |
+|  70.爬楼梯  |         [ClimbStairs](https://leetcode-cn.com/problems/climbing-stairs/)         |   ⭐⭐  |
 |  5.最长回文子串  |         [LongestPalindrome](https://leetcode-cn.com/problems/longest-palindromic-substring/)         |   ⭐  |
 |  10.正则表达式匹配  |         [IsMatch](https://leetcode-cn.com/problems/regular-expression-matching/)         |   ⭐  |
 |  121.买卖股票的最佳时机    |         [MaxProfit](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)         |   ⭐⭐⭐  |
@@ -151,3 +150,4 @@ learn algorithm contain note and practice algorithm question.
 |  221.最大正方形   |         [MaximalSquare](https://leetcode-cn.com/problems/maximal-square/)         |   ⭐  |
 |  42.接雨水    |         [CatchRain](https://leetcode-cn.com/problems/trapping-rain-water/)         |   ⭐  |
 |  53.最大子序和    |         [MaxSubArray](https://leetcode-cn.com/problems/maximum-subarray/)         |   ⭐⭐  |
+|  300.最长递增子序列  |         [LengthOfLIS](https://leetcode-cn.com/problems/longest-increasing-subsequence/)         |   ⭐  |

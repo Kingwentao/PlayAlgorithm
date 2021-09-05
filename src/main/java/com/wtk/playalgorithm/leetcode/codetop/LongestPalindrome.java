@@ -23,6 +23,7 @@ class LongestPalindrome {
             int start = 0;
             int end = 0;
             int maxLen = 1;
+            // note: 细节。第一层是右指针，第二个字符开始
             for (int r = 1; r < len; r++) {
                 for (int l = 0; l < r; l++) {
                     //note： 关键是这里判断，左右相等 && （两个数内或者三个数以上时靠中间的数要相等）
