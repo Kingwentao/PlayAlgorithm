@@ -86,6 +86,20 @@ learn algorithm contain note and practice algorithm question.
 |  142.环形链表II   |         [DetectCycle](https://leetcode-cn.com/problems/linked-list-cycle-ii/) |  
 |  143.重排链表  |         [ReorderList](https://leetcode-cn.com/problems/reorder-list/) |   
 
+#### 五、二叉树
+
+|  101.对称二叉树  |         [IsSymmetric](https://leetcode-cn.com/problems/symmetric-tree/)         | 
+|  102.二叉树的层序遍历  |         [LevelOrder](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)         | 
+|  103.二叉树的锯齿形层序遍历        |         [ZigzagLevelOrder](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) |  
+|  199.二叉树的右视图  |         [RightSideView](https://leetcode-cn.com/problems/binary-tree-right-side-view/)         |   ⭐⭐⭐  |
+|  236.二叉树的最近公共祖先    |         [LowestCommonAncestor](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) |  
+
+#### 六、设计类
+
+|           题目            |               代码中类名(leetcode address)               | 
+| :-----------------------: | :----------------------------------------------------------: |
+|  146.LRU缓存机制  |  [LRUCache](https://leetcode-cn.com/problems/lru-cache/) |  
+
 
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
 - 判断树是否是完全二叉树
@@ -106,12 +120,12 @@ learn algorithm contain note and practice algorithm question.
 |  3.无重复字符的最长子串   |         [LengthOfLongestSubstring](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)         |    ⭐     |
 |  206.反转链表        |         [ReverseList](https://leetcode-cn.com/problems/reverse-linked-list/)         |   ⭐⭐⭐    |
 |  92.反转链表II  |         [ReverseBetween](https://leetcode-cn.com/problems/reverse-linked-list-ii/)         |   ⭐  |
-|  2.两数相加    |         [AddTwoNumbers](https://leetcode-cn.com/problems/add-two-numbers/)         |   ⭐⭐  |
+|  2.两数相加    |         [AddTwoNumbers](https://leetcode-cn.com/problems/add-two-numbers/)         |   ⭐⭐⭐  |
 |  25.K 个一组翻转链表        |         [ReverseKGroup](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)         |   ⭐⭐   |
 |  剑指Offer22:链表中倒数第k个节点     |         [GetKthFromEnd](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)         |   ⭐⭐⭐  |
 |  160. 相交链表     |         [GetIntersectionNode](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)         |   ⭐⭐⭐  |
 |  19.删除链表的倒数第N个结点     |         [RemoveNthFromEnd](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)         |   ⭐  |
-|  21.合并两个有序链表   |         [MergeTwoLists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)         |   ⭐  |
+|  21.合并两个有序链表   |         [MergeTwoLists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)         |   ⭐⭐⭐  |
 |  142.环形链表II   |         [DetectCycle](https://leetcode-cn.com/problems/linked-list-cycle-ii/)         |   ⭐  |
 |  143.重排链表  |         [ReorderList](https://leetcode-cn.com/problems/reorder-list/)         |   ⭐  |
 |  148.排序链表  |         [SortList](https://leetcode-cn.com/problems/sort-list/)         |   ⭐  |
@@ -124,9 +138,9 @@ learn algorithm contain note and practice algorithm question.
 |  101.对称二叉树  |         [IsSymmetric](https://leetcode-cn.com/problems/symmetric-tree/)         |   ⭐  |
 |  102.二叉树的层序遍历  |         [LevelOrder](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)         |   ⭐⭐⭐  |
 |  103.二叉树的锯齿形层序遍历        |         [ZigzagLevelOrder](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)         |   ⭐⭐  |
-|  199.二叉树的右视图  |         [RightSideView](https://leetcode-cn.com/problems/binary-tree-right-side-view/)         |   ⭐  |
+|  199.二叉树的右视图  |         [RightSideView](https://leetcode-cn.com/problems/binary-tree-right-side-view/)         |   ⭐⭐⭐  |
 |  236.二叉树的最近公共祖先    |         [LowestCommonAncestor](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)         |   ⭐  |
-|  415.字符串相加   |         [AddStrings](https://leetcode-cn.com/problems/add-strings/)         |   ⭐⭐  |
+|  415.字符串相加   |         [AddStrings](https://leetcode-cn.com/problems/add-strings/)         |   ⭐⭐⭐  |
 |  232.用栈实现队列   |         [MyQueue](https://leetcode-cn.com/problems/implement-queue-using-stacks/)         |   ⭐⭐⭐  |
 |  54.螺旋矩阵   |         [SpiralOrder](https://leetcode-cn.com/problems/spiral-matrix/)         |   ⭐  |
 |  200.岛屿数量   |         [NumIslands](https://leetcode-cn.com/problems/number-of-islands/)         |   ⭐⭐  |

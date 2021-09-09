@@ -21,6 +21,7 @@ class LengthOfLongestSubstring {
 
     public static int lengthOfLongestSubstring(String s) {
         int max = 0;
+        // value 值为字符位置 +1，加 1 表示从字符位置后一个才开始不重复
         Map<Character, Integer> record = new HashMap<>();
         int start = 0;
         for (int end = 0; end < s.length(); end++) {
@@ -29,6 +30,7 @@ class LengthOfLongestSubstring {
                 start = Math.max(record.get(c), start);
             }
             max = Math.max(max, end - start + 1);
+            // note: 加1的目的
             record.put(c, end + 1);
         }
         return max;
