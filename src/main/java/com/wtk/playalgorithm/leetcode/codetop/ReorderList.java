@@ -32,8 +32,9 @@ class ReorderList {
             slow.next = null;
             // 反转第二段
             newHead = reverseList(newHead);
-            // 重新连接两部分
+            // 重新连接两部分：对后半部分取出元素，记录、连接
             while (newHead != null){
+                // 这里先处理后半部分的后续部分，保证next指针，防止断开
                 ListNode node = newHead.next;
                 newHead.next = head.next;
                 head.next = newHead;
