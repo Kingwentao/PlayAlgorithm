@@ -21,11 +21,11 @@ class MergeInterval {
             int[][] res = new int[intervalSize][2];
             int idx = -1;
             for (int i = 0; i < intervalSize; i++){
-                // 被包含，直接加入
+                // 被包含，直接加入 [1,3][4,5]
                 if (idx == -1 || intervals[i][0] > res[idx][1]){
                     res[++idx]  = intervals[i];
                 }else {
-                    // 反之，更新区间的右边
+                    // 反之，更新区间的右边 [1,3] [2,5]
                     res[idx][1] = Math.max(intervals[i][1], res[idx][1]);
                 }
             }

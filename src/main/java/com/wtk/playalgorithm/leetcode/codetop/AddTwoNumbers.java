@@ -9,9 +9,7 @@ import com.wtk.playalgorithm.leetcode.linklist.ListNode;
  */
 class AddTwoNumbers {
 
-    public static void main(String[] args) {
-
-    }
+    public static void main(String[] args) { }
 
     static class Solution {
         public ListNode addTwoNumbers(ListNode l1, ListNode l2) {

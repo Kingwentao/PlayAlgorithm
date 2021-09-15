@@ -7,7 +7,8 @@ package com.wtk.playalgorithm.leetcode.codetop;
  */
 class MySqrt {
     public static void main(String[] args) {
-
+        int res = new Solution().mySqrt(8);
+        System.out.println("res:" + res);
     }
 
     static class Solution {

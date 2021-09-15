@@ -29,7 +29,7 @@ class GetIntersectionNode {
         System.out.println("");
         LinkListUtil.printLink(head2);
         System.out.println("\nget intersection node:");
-        ListNode res = getIntersectionNode(head1, head2);
+        ListNode res = new Solution().getIntersectionNode(head1, head2);
         if (res == null) {
             System.out.println("null");
         } else {
@@ -37,27 +37,29 @@ class GetIntersectionNode {
         }
     }
 
-    public static ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        if (headA == null) return headB;
-        if (headB == null) return headA;
-        ListNode nodeA = headA;
-        ListNode nodeB = headB;
-        while (nodeA != null || nodeB != null) {
-            if (nodeA == nodeB) {
-                return nodeA;
+    public static class Solution {
+        public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+            if (headA == null) return headB;
+            if (headB == null) return headA;
+            ListNode nodeA = headA;
+            ListNode nodeB = headB;
+            while (nodeA != null || nodeB != null) {
+                if (nodeA == nodeB) {
+                    return nodeA;
+                }
+                if (nodeA == null) {
+                    nodeA = headB;
+                } else {
+                    nodeA = nodeA.next;
+                }
+                if (nodeB == null) {
+                    nodeB = headA;
+                } else {
+                    nodeB = nodeB.next;
+                }
             }
-            if (nodeA == null) {
-                nodeA = headB;
-            } else {
-                nodeA = nodeA.next;
-            }
-            if (nodeB == null) {
-                nodeB = headA;
-            } else {
-                nodeB = nodeB.next;
-            }
+            return null;
         }
-        return null;
     }
 
 }
