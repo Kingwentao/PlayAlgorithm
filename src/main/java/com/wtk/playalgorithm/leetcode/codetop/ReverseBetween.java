@@ -18,7 +18,7 @@ class ReverseBetween {
             ListNode cur = dummyHead;
             ListNode pre = dummyHead.next;
 
-            for (int i = 0; i < left - 1; i++) {
+            for (int i = 1; i < left; i++) {
                 cur = cur.next;
                 pre = pre.next;
             }

@@ -15,6 +15,7 @@ class LowestCommonAncestor {
 
     static class Solution {
         public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+            //note: 退出条件还有 root==p or q
             if (root == null || root == p || root == q) return root;
             TreeNode left = lowestCommonAncestor(root.left, p, q);
             TreeNode right = lowestCommonAncestor(root.right, p, q);
