@@ -30,6 +30,7 @@ class MergeArray {
                     nums1[len--] = nums1[n1--];
                 }
             }
+            // note: 参数示意，复制数组 + 起始位置 + 目标数组 + 起始位置 + 复制的个数
             System.arraycopy(nums2, 0, nums1, 0, n2 + 1);
         }
     }

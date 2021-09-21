@@ -26,7 +26,7 @@ class LongestPalindrome {
             // note: 细节。第一层是右指针，第二个字符开始
             for (int r = 1; r < len; r++) {
                 for (int l = 0; l < r; l++) {
-                    //note： 关键是这里判断，左右相等 && （两个数内或者三个数以上时靠中间的数要相等）
+                    //note： 关键是这里判断，左右边界的两个字符相等 && （两个数内或者三个数以上时靠中间的数要相等）
                     if (s.charAt(l) == s.charAt(r) && (dp[l + 1][r - 1] || r - l <= 2)) {
                         dp[l][r] = true;
                         if (r - l + 1 > maxLen) {

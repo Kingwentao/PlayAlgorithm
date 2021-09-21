@@ -43,6 +43,7 @@ class IsSymmetric {
                 if (left == null && right == null) continue;
                 if (left == null || right == null) return false;
                 if (left.val != right.val) return false;
+                // note: 这里的入队顺序很关键
                 deque.offer(left.left);
                 deque.offer(right.right);
                 deque.offer(left.right);

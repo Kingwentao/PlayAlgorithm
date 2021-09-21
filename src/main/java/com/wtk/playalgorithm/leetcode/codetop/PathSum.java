@@ -19,29 +19,32 @@ class PathSum {
     }
 
     static class Solution {
+
+        List<List<Integer>> ret = new ArrayList();
+        Deque<Integer> path = new ArrayDeque();
+
         public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
-            List<List<Integer>> ret = new ArrayList();
             if (root == null) return ret;
-            Deque<Integer> path = new ArrayDeque();
-            dfs(root, targetSum, ret, path);
+            dfs(root, targetSum);
             return ret;
         }
 
         //回溯法处理
-        private void dfs(TreeNode root, int targetSum, List<List<Integer>> ret, Deque<Integer> path) {
+        private void dfs(TreeNode root, int targetSum) {
             targetSum -= root.val;
             path.addLast(root.val);
             if (root.left == null && root.right == null && targetSum == 0) {
                 ret.add(new ArrayList<>(path));
+                //note: 这里不需要return，加上结果会错误
             }
             if (root.left != null) {
-                dfs(root.left, targetSum, ret, path);
+                dfs(root.left, targetSum);
             }
             if (root.right != null) {
-                dfs(root.right, targetSum, ret, path);
+                dfs(root.right, targetSum);
             }
             path.removeLast();
         }
-
     }
+
 }

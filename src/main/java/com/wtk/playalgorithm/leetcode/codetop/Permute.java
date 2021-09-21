@@ -19,19 +19,21 @@ class Permute {
         System.out.println(lists);
     }
 
+    // dfs
     static class Solution {
+        List<List<Integer>> res = new ArrayList<>();
+        Deque<Integer> path = new ArrayDeque<>();
+        boolean[] used;
+
         public List<List<Integer>> permute(int[] nums) {
-            List<List<Integer>> res = new ArrayList<>();
             int len = nums.length;
             if (len == 0) return res;
-            boolean[] used = new boolean[len];
-            Deque<Integer> path = new ArrayDeque<>();
-            dfs(nums, 0, len, used, path, res);
+            used = new boolean[len];
+            dfs(nums, 0, len);
             return res;
         }
 
-        private void dfs(int[] nums, int depth, int len, boolean[] used,
-                         Deque<Integer> path, List<List<Integer>> res) {
+        private void dfs(int[] nums, int depth, int len) {
             if (depth == len) {
                 res.add(new ArrayList<>(path));
                 return;
@@ -42,7 +44,7 @@ class Permute {
                 used[i] = true;
                 //递归前
                 System.out.println("递归" + path);
-                dfs(nums, depth + 1, len, used, path, res);
+                dfs(nums, depth + 1, len);
                 used[i] = false;
                 path.removeLast();
                 System.out.println("递归后（回溯）" + path);
