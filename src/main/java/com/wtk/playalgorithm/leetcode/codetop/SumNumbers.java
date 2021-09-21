@@ -8,8 +8,8 @@ import com.wtk.playalgorithm.leetcode.tree.TreeNode;
  * description: 129.求根节点到叶节点数字之和
  */
 class SumNumbers {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
     }
 
     class Solution {
@@ -18,9 +18,10 @@ class SumNumbers {
         }
 
         private int dfs(TreeNode root, int sum) {
-            if(root == null) return 0;
-            sum += sum * 10 + root.val;
-            if(root.left == null && root.right == null){
+            if (root == null) return 0;
+            // note: 不能省掉sum参数用成员变量代替
+            sum = sum * 10 + root.val;
+            if (root.left == null && root.right == null) {
                 return sum;
             }
             return dfs(root.left, sum) + dfs(root.right, sum);
