@@ -130,8 +130,9 @@ learn algorithm contain note and practice algorithm question.
 |  160.相交链表     |         [GetIntersectionNode](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)         |   ⭐⭐⭐  |
 |  19.删除链表的倒数第N个结点     |         [RemoveNthFromEnd](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)         |   ⭐  |
 |  21.合并两个有序链表   |         [MergeTwoLists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)         |   ⭐⭐⭐  |
+|  23.合并K个升序链表   |         [MergeKLists](https://leetcode-cn.com/problems/merge-k-sorted-lists/)         |   ⭐  |
 |  142.环形链表II   |         [DetectCycle](https://leetcode-cn.com/problems/linked-list-cycle-ii/)         |   ⭐  |
-|  143.重排链表  |         [ReorderList](https://leetcode-cn.com/problems/reorder-list/)         |   ⭐  |
+|  143.重排链表  |         [ReorderList](https://leetcode-cn.com/problems/reorder-list/)         |   ⭐⭐  |
 |  148.排序链表  |         [SortList](https://leetcode-cn.com/problems/sort-list/)         |   ⭐  |
 |  234.回文链表  |         [IsPalindrome](https://leetcode-cn.com/problems/palindrome-linked-list/)         |   ⭐⭐⭐  |
 |  82.删除排序链表中的重复元素II  |         [DeleteDuplicate](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)         |   ⭐  |
