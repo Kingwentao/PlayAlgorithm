@@ -172,3 +172,4 @@ learn algorithm contain note and practice algorithm question.
 |  42.接雨水    |         [CatchRain](https://leetcode-cn.com/problems/trapping-rain-water/)         |   ⭐  |
 |  53.最大子序和    |         [MaxSubArray](https://leetcode-cn.com/problems/maximum-subarray/)         |   ⭐⭐  |
 |  300.最长递增子序列  |         [LengthOfLIS](https://leetcode-cn.com/problems/longest-increasing-subsequence/)         |   ⭐  |
+|  32.最长有效括号  |         [LongestValidParentheses](https://leetcode-cn.com/problems/longest-valid-parentheses/)         |   ⭐  |
