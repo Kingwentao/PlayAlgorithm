@@ -25,6 +25,7 @@ class SortList {
             ListNode s2 = sortList(h2);
             // 并
             ListNode newHead = new ListNode(0);
+            // note: 需要用一个点记录头，用于返回结果
             ListNode res = newHead;
             while (s1 != null && s2 != null){
                 if(s1.val < s2.val){

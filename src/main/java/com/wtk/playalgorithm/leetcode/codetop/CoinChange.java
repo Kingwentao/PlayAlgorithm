@@ -21,6 +21,7 @@ class CoinChange {
             int[] dp = new int[amount + 1];
             // 硬币最多为amount，所以默认可填充amount+1
             Arrays.fill(dp, amount + 1);
+            //note: dp[0]一定需要定义
             dp[0] = 0;
             for (int i = 1; i <= amount; i++) {
                 for (int j = 0; j < coins.length; j++) {
