@@ -148,6 +148,7 @@ learn algorithm contain note and practice algorithm question.
 |  105.从前序与中序遍历序列构造二叉树    |         [BuildTree](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)         |   ⭐  |
 |  129.求根节点到叶节点数字之和    |         [SumNumbers](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/)         |   ⭐  |
 |  415.字符串相加   |         [AddStrings](https://leetcode-cn.com/problems/add-strings/)         |   ⭐⭐⭐  |
+|  155.最小栈   |         [MinStack](https://leetcode-cn.com/problems/min-stack/)         |   ⭐⭐  |
 |  232.用栈实现队列   |         [MyQueue](https://leetcode-cn.com/problems/implement-queue-using-stacks/)         |   ⭐⭐⭐  |
 |  54.螺旋矩阵   |         [SpiralOrder](https://leetcode-cn.com/problems/spiral-matrix/)         |   ⭐  |
 |  200.岛屿数量   |         [NumIslands](https://leetcode-cn.com/problems/number-of-islands/)         |   ⭐⭐  |
