@@ -104,7 +104,6 @@ learn algorithm contain note and practice algorithm question.
 
 
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
-- 判断树是否是完全二叉树
 - 104.二叉树的最大深度
 
 **题目掌握程度标志：**
@@ -140,6 +139,7 @@ learn algorithm contain note and practice algorithm question.
 |  146.LRU缓存机制        |         [LRUCache](https://leetcode-cn.com/problems/lru-cache/)         |   ⭐   |
 |  1.两数之和    |         [TwoSum](https://leetcode-cn.com/problems/two-sum/)         |   ⭐⭐⭐  |
 |  98.验证二叉搜索树   |         [IsValidBST](https://leetcode-cn.com/problems/validate-binary-search-tree/)         |   ⭐  |
+|  958.二叉树的完全性检验   |         [IsCompleteTree](https://leetcode-cn.com/problems/check-completeness-of-a-binary-tree/)         |   ⭐  |
 |  101.对称二叉树  |         [IsSymmetric](https://leetcode-cn.com/problems/symmetric-tree/)         |   ⭐  |
 |  102.二叉树的层序遍历  |         [LevelOrder](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)         |   ⭐⭐⭐  |
 |  103.二叉树的锯齿形层序遍历        |         [ZigzagLevelOrder](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)         |   ⭐⭐  |
