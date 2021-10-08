@@ -16,6 +16,7 @@ class MergeKLists {
         }
 
         private ListNode mergeLists(ListNode[] lists, int lo, int hi){
+            // note: 弄明白该递归结束条件所表达的意思
             if(lo == hi){
                 return lists[lo];
             }

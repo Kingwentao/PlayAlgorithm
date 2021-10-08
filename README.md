@@ -115,7 +115,7 @@ learn algorithm contain note and practice algorithm question.
 | :-----------------------: | :----------------------------------------------------------: | :------: |
 | 215.数组中的第K个最大元素 | [FindKthLargest](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) |    ⭐⭐⭐    |
 | 剑指Offer-40: 最小的k个数 |             [GetLeastNumbers](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)              |    ⭐⭐⭐    |
-|  912.排序数组   |         [SortArray](https://leetcode-cn.com/problems/sort-an-array/)         |   ⭐  |
+|  912.排序数组   |         [SortArray](https://leetcode-cn.com/problems/sort-an-array/)         |   ⭐⭐  |
 |  33.搜索旋转排序数组   |         [SearchRotateSortArray](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)         |   ⭐  |
 |  41.缺失的第一个正数   |         [FirstMissingPositive](https://leetcode-cn.com/problems/first-missing-positive/)         |   ⭐  |
 |  88.合并两个有序数组   |         [MergeArray](https://leetcode-cn.com/problems/merge-sorted-array/)         |   ⭐  |

@@ -25,6 +25,7 @@ class ReverseBetween {
             for (int i = 1; i < right - left + 1; i++) {
                 ListNode rm = pre.next;
                 pre.next = pre.next.next;
+                // note: 这里不能指向pre，因为pre的位置不变，指向pre会插入到pre之前，而不是真正的头（cur.next）
                 rm.next = cur.next;
                 cur.next = rm;
             }
