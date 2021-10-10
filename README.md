@@ -175,3 +175,4 @@ learn algorithm contain note and practice algorithm question.
 |  53.最大子序和    |         [MaxSubArray](https://leetcode-cn.com/problems/maximum-subarray/)         |   ⭐⭐  |
 |  300.最长递增子序列  |         [LengthOfLIS](https://leetcode-cn.com/problems/longest-increasing-subsequence/)         |   ⭐  |
 |  32.最长有效括号  |         [LongestValidParentheses](https://leetcode-cn.com/problems/longest-valid-parentheses/)         |   ⭐  |
+|  8.字符串转换整数 (atoi)  |         [MyAtoi](https://leetcode-cn.com/problems/string-to-integer-atoi/)         |   ⭐  |
