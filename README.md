@@ -101,6 +101,7 @@ learn algorithm contain note and practice algorithm question.
 |           题目            |               代码中类名(leetcode address)               | 
 | :-----------------------: | :----------------------------------------------------------: |
 |  146.LRU缓存机制  |  [LRUCache](https://leetcode-cn.com/problems/lru-cache/) |  
+|  62.实现前缀树  |  [Trie](https://leetcode-cn.com/problems/QC3q1f/) |  
 
 
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
