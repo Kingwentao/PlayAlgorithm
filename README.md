@@ -103,6 +103,10 @@ learn algorithm contain note and practice algorithm question.
 |  146.LRU缓存机制  |  [LRUCache](https://leetcode-cn.com/problems/lru-cache/) |  
 |  62.实现前缀树  |  [Trie](https://leetcode-cn.com/problems/QC3q1f/) |  
 
+#### 七、数学、概率题
+|           题目            |               代码中类名(leetcode address)               | 
+| :-----------------------: | :----------------------------------------------------------: |
+|  470.用 Rand7() 实现 Rand10()  |  [Random10](https://leetcode-cn.com/problems/implement-rand10-using-rand7/) |
 
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
 - 104.二叉树的最大深度
@@ -177,3 +181,4 @@ learn algorithm contain note and practice algorithm question.
 |  300.最长递增子序列  |         [LengthOfLIS](https://leetcode-cn.com/problems/longest-increasing-subsequence/)         |   ⭐  |
 |  32.最长有效括号  |         [LongestValidParentheses](https://leetcode-cn.com/problems/longest-valid-parentheses/)         |   ⭐  |
 |  8.字符串转换整数 (atoi)  |         [MyAtoi](https://leetcode-cn.com/problems/string-to-integer-atoi/)         |   ⭐  |
+|  470.用 Rand7() 实现 Rand10()  |  [Random10](https://leetcode-cn.com/problems/implement-rand10-using-rand7/) |  ⭐  |
