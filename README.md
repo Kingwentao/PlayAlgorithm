@@ -126,6 +126,7 @@ learn algorithm contain note and practice algorithm question.
 |  88.合并两个有序数组   |         [MergeArray](https://leetcode-cn.com/problems/merge-sorted-array/)         |   ⭐  |
 |  56.合并区间   |         [MergeInterval](https://leetcode-cn.com/problems/merge-intervals/submissions/)         |   ⭐  |
 |  3.无重复字符的最长子串   |         [LengthOfLongestSubstring](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)         |    ⭐     |
+|  4.寻找两个正序数组的中位数   |         [FindMedianSortedArrays](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)         |    ⭐     |
 |  206.反转链表        |         [ReverseList](https://leetcode-cn.com/problems/reverse-linked-list/)         |   ⭐⭐⭐    |
 |  92.反转链表II  |         [ReverseBetween](https://leetcode-cn.com/problems/reverse-linked-list-ii/)         |   ⭐  |
 |  2.两数相加    |         [AddTwoNumbers](https://leetcode-cn.com/problems/add-two-numbers/)         |   ⭐⭐⭐  |
