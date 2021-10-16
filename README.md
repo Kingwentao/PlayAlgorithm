@@ -108,6 +108,12 @@ learn algorithm contain note and practice algorithm question.
 | :-----------------------: | :----------------------------------------------------------: |
 |  470.用 Rand7() 实现 Rand10()  |  [Random10](https://leetcode-cn.com/problems/implement-rand10-using-rand7/) |
 
+#### 八、贪心算法
+
+|           题目            |               代码中类名(leetcode address)               | 
+| :-----------------------: | :----------------------------------------------------------: |
+|  55.跳跃游戏  |  [CanJump](https://leetcode-cn.com/problems/jump-game/) |
+
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
 - 104.二叉树的最大深度
 
