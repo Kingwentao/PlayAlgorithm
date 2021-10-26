@@ -187,6 +187,7 @@ learn algorithm contain note and practice algorithm question.
 |  42.接雨水    |         [CatchRain](https://leetcode-cn.com/problems/trapping-rain-water/)         |   ⭐  |
 |  53.最大子序和    |         [MaxSubArray](https://leetcode-cn.com/problems/maximum-subarray/)         |   ⭐⭐  |
 |  300.最长递增子序列  |         [LengthOfLIS](https://leetcode-cn.com/problems/longest-increasing-subsequence/)         |   ⭐  |
+|  1143.最长公共子序列  |         [LongestCommonSubsequence](https://leetcode-cn.com/problems/longest-common-subsequence/)         |   ⭐  |
 |  32.最长有效括号  |         [LongestValidParentheses](https://leetcode-cn.com/problems/longest-valid-parentheses/)         |   ⭐  |
 |  8.字符串转换整数 (atoi)  |         [MyAtoi](https://leetcode-cn.com/problems/string-to-integer-atoi/)         |   ⭐  |
 |  470.用 Rand7() 实现 Rand10()  |  [Random10](https://leetcode-cn.com/problems/implement-rand10-using-rand7/) |  ⭐  |
