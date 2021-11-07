@@ -18,7 +18,8 @@ class ReverseWord {
             StringBuilder sb = new StringBuilder();
             //note: 倒序存储很关键
             for (int i = words.length - 1; i >= 0; i--) {
-                if (words[i].equals(" ")) continue;
+                // note: 内部的如果是空直接跳过
+                if (words[i].isEmpty()) continue;
                 sb.append(words[i]);
                 if (i != 0) sb.append(" ");
             }
