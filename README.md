@@ -193,3 +193,5 @@ learn algorithm contain note and practice algorithm question.
 |  470.用 Rand7() 实现 Rand10()  |  [Random10](https://leetcode-cn.com/problems/implement-rand10-using-rand7/) |  ⭐  |
 |  43.字符串相乘  |  [StringMultiply](https://leetcode-cn.com/problems/multiply-strings/) |  ⭐  |
 |  151.翻转字符串里的单词  |  [ReverseWord](https://leetcode-cn.com/problems/reverse-words-in-a-string/) |  ⭐  |
+|  678.有效的括号字符串  |  [CheckValidString](https://leetcode-cn.com/problems/valid-parenthesis-string/) |  ⭐  |
+|  442.数组中重复的数据  |  [FindDuplicates](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/) |  ⭐  |
