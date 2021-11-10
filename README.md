@@ -115,7 +115,6 @@ learn algorithm contain note and practice algorithm question.
 |  55.跳跃游戏  |  [CanJump](https://leetcode-cn.com/problems/jump-game/) |
 
 ### 大厂常见面试题[CodeTop](https://codetop.cc/)
-- 104.二叉树的最大深度
 
 **题目掌握程度标志：**
 - 未掌握：⭐
@@ -156,6 +155,7 @@ learn algorithm contain note and practice algorithm question.
 |  101.对称二叉树  |         [IsSymmetric](https://leetcode-cn.com/problems/symmetric-tree/)         |   ⭐  |
 |  102.二叉树的层序遍历  |         [LevelOrder](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)         |   ⭐⭐⭐  |
 |  103.二叉树的锯齿形层序遍历        |         [ZigzagLevelOrder](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)         |   ⭐⭐  |
+|  104.二叉树的最大深度        |         [MaxDepth](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)         |   ⭐  |
 |  199.二叉树的右视图  |         [RightSideView](https://leetcode-cn.com/problems/binary-tree-right-side-view/)         |   ⭐⭐⭐  |
 |  236.二叉树的最近公共祖先    |         [LowestCommonAncestor](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)         |   ⭐  |
 |  105.从前序与中序遍历序列构造二叉树    |         [BuildTree](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)         |   ⭐  |
