@@ -3,7 +3,7 @@ package com.wtk.playalgorithm.leetcode.linklist;
 /**
  * author: WentaoKing
  * created on: 5/20/21
- * description: 剑指Offer-35：复杂链表的复制
+ * description: 138.复制带随机指针的链表
  * 复杂链表中，每个节点除了有一个 next 指针指向下一个节点，还有一个 random 指针指向链表中的任意节点或者 null。
  */
 class CopyRandomList {
@@ -44,17 +44,18 @@ class CopyRandomList {
 
     private Node getCopyLinkList(Node head) {
         Node node = head.next;
-        Node pre = head;
+        // 恢复原链表
+        Node source = head;
         Node copyNode = head.next;
         while (node.next != null){
-            pre.next = pre.next.next;
+            source.next = source.next.next;
             node.next = node.next.next;
-            pre = pre.next;
+            source = source.next;
             node = node.next;
         }
-        //单独处理原链表尾节点
-        pre.next = null;
-        //返回新链表头节点
+        // 保证原链表的完整
+        source.next = null;
+        // 返回新链表头节点
         return copyNode;
     }
 

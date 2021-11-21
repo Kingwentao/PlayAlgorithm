@@ -32,11 +32,19 @@ learn algorithm contain note and practice algorithm question.
 - 循环链表：循环链表的优点是从链尾到链头比较方便。当要处理的数据具有环型结构特点时，就特别适合采用循环链表。比如著名的约瑟夫问题。
 
 双向链表可以支持 O(1) 时间复杂度的情况下找到前驱结点。双向链表在某些情况下的插入、删除等操作都要比单链表简单、高效。
-1.插入：**删除给定指针指向的结点**。
+
+1. 插入：**删除给定指针指向的结点**。
 因为双向链表中的结点已经保存了前驱结点的指针，不需要像单链表那样遍历。
 所以，针对此情况，单链表删除操作需要 O(n) 的时间复杂度，而双向链表只需要在 O(1) 的时间复杂度内就搞定了
-2.查询：对于一个有序链表，双向链表的按值查询的效率也要比单链表高一些。
+2. 查询：对于一个有序链表，双向链表的按值查询的效率也要比单链表高一些。
 每次查询时，根据要查找的值与 p 的大小关系，决定是往前还是往后查找，所以平均只需要查找一半的数据。
+
+|           题目            |               代码中类名(leetcode address)               | 
+| :-----------------------: | :----------------------------------------------------------: | 
+| 138.复制带随机指针的链表 | [CopyRandomList](https://leetcode-cn.com/problems/copy-list-with-random-pointer/) | 
+| 86.分隔链表 | [PartitionList](https://leetcode-cn.com/problems/partition-list/) | 
+| 234.回文链表  | [IsPalindrome](https://leetcode-cn.com/problems/palindrome-linked-list/)         |   
+
 
 ### 经典题型
 - 求x的平方根,精确到6位小数
@@ -49,7 +57,6 @@ learn algorithm contain note and practice algorithm question.
 - 剑指Offer-30：包含min函数的栈
 - 剑指Offer-31：栈的压入、弹出序列
 - 剑指Offer-33：二叉搜索树的后序遍历序列
-- 剑指Offer-35：复杂链表的复制
 - 剑指Offer-36: 二叉搜索树与双向链表
 - 剑指Offer-38：字符串的排列
 - 剑指Offer-39: 数组中出现次数超过一半的数字

@@ -9,13 +9,12 @@ import com.wtk.playalgorithm.leetcode.linklist.ListNode;
  */
 class IsPalindrome {
 
-    public static void main(String[] args) {
-
-    }
+    public static void main(String[] args) { }
 
     class Solution {
         public boolean isPalindrome(ListNode head) {
             if (head == null || head.next == null) return true;
+            // note: 注意理解这里为什么是head.next而不是head
             ListNode fast = head.next;
             ListNode slow = head;
             while (fast != null && fast.next != null) {
