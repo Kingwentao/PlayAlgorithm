@@ -10,7 +10,6 @@ import com.wtk.playalgorithm.leetcode.linklist.ListNode;
 class DetectCycle {
 
     public static void main(String[] args) {
-
     }
 
     public static class Solution {
@@ -21,6 +20,7 @@ class DetectCycle {
             //是否有环
             boolean hasCycle = false;
             while (fast != null && fast.next != null) {
+                // note：fast以两倍速率走。注意先走再比较，因为最开始slow、fast定义的是head
                 slow = slow.next;
                 fast = fast.next.next;
                 if (slow == fast) {
