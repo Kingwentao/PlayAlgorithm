@@ -19,6 +19,8 @@ class RemoveNthFromEnd {
             ListNode slow = dummy;
             for(int i = 1; i <= n; i++){
                 fast = fast.next;
+                // note: 可以加一个判断早点结束n无限大情况（不加也不会出错）
+                if(fast == null) break;
             }
             while(fast != null){
                 fast = fast.next;
